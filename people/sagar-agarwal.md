@@ -25,21 +25,34 @@ email: sagar.agarwal@razorpay.com
 - **Bitscale vendor onboarding:** Manager-level sponsor for the lead enrichment tool (LinkedIn/web scraping for merchant leads); NDA finalization pending legal sign-off [Source: Gmail, 2026-05-20]
 - **HQL definition:** Waiting on Nikunj to define High-Quality Lead (HQL) thresholds to move Growth metrics forward [Source: Gmail, 2026-05-20]
 - **Tooling:** Driving Devrev + Slack integration for the team [Source: Gmail, 2026-05-20]
+- **Three flagship AI projects — all under Sagar's org, all Khilan-watched:** [Source: User, 2026-05-20]
+  1. **Agentic Dashboard** — PM: Pratul Gupta
+  2. **Yogi** — PM: Nitai Agarwal
+  3. **VRM** — PM: Vrajesh Iyengar
+- **Open strategic question Vrajesh is working to resolve with Sagar:** Why does VRM deserve to exist as a standalone project? What does VRM solve that the Agentic Dashboard doesn't? Which parts of the vision belong in Agentic Dashboard vs. VRM? Getting this alignment with Sagar is a live priority. [Source: User, 2026-05-20]
 
 ## What Motivates Them
-[No data yet]
+Outcome-oriented — measures success through metric movement and project health, not activity. Wants to see input levers clearly tied to outcomes. [Source: User, 2026-05-20]
 
 ## Hobby Horses
 [No data yet]
 
 ## Assessment
-Action-oriented and managerial. Delegates clearly, names DRIs, and holds the team accountable on blockers. Doesn't let things sit — actively chases dependencies (Ramya, Nikunj, legal). Comfortable managing both people and vendor/process tracks simultaneously. Likely measures success by cadence health and metric movement.
+Action-oriented and managerial. Delegates clearly, names DRIs, and holds the team accountable on blockers. Doesn't let things sit — actively chases dependencies. **Communication style:** prefers crisp, short, scannable updates — macro first, no surface-level fluff, but expects you to have depth ready if he digs in. Will micromanage until he's comfortable with the state of affairs, then switches to autopilot mode. The signal he needs to let go is confidence in the project's trajectory and the person running it. [Source: User, 2026-05-20]
+
+**VRM stance:** Believer. Has given Vrajesh space to focus on VRM as the primary charter while Sagar himself covers Growth + Website PM duties in parallel. [Source: User, 2026-05-20]
 
 ## Trajectory
-[No data yet]
+Currently wearing two hats — acting as pseudo Growth & Website PM while letting Vrajesh own VRM. Likely looking to hand back the VRM oversight as trust builds. [Source: User, 2026-05-20]
 
 ## Relationship
-Vrajesh's direct manager. Sets roadmap priorities and is the primary alignment and escalation point. Vrajesh attends Sagar's weekly Growth DEPA cadence. Any strategic decisions or priority conflicts go through Sagar first.
+Vrajesh's direct manager. Has explicitly given Vrajesh space to focus on VRM. Believes Vrajesh has high potential but feels he is not extracting it fully — i.e., the bar he holds Vrajesh to is higher than current output. This is both a vote of confidence and an open performance signal to act on. Recently received a VRM project update from Vrajesh posted on #vrm-public (offline discussion → Slack update). [Source: User, 2026-05-20]
+
+**How to communicate with Sagar:**
+- Lead with outcomes and input levers, not activity
+- Keep it short and scannable — no walls of text
+- Have depth ready but don't front-load it
+- Proactively share macro status so he doesn't need to ask
 
 ## Contact
 - **Email:** sagar.agarwal@razorpay.com

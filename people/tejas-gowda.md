@@ -11,33 +11,39 @@ email: tejas.gowda@razorpay.com
 
 # Tejas Gowda
 
-> VP Product for SME Payments and Vrajesh's skip-level manager. BU Head sponsoring the Bitscale lead enrichment onboarding and a key stakeholder in VRM + Agentic Dashboard strategy. Currently OOO (mid-May 2026) and unavailable for architecture sessions.
+> VP Product for SME Payments (formerly R1 group) and Vrajesh's skip-level manager. Sponsor for VRM project — gets monthly updates via group review docs, not involved in architecture. Pushes hard on timelines and is a capable escalator when needed.
 
 ## State
-- **Role:** VP Product, SME Payments [Source: Gmail, 2026-05-20]
+- **Role:** VP Product, SME Payments (formerly R1 group — covers Experience, Growth, and Onboarding charters) [Source: User, 2026-05-20]
 - **Reports to:** Khilan Haria (CPO)
 - **DevRev:** DEVU-6610
 - Currently OOO — declined VRM architecture breakout sessions scheduled for May 18 and May 22 [Source: Gmail, 2026-05-20]
-- Warm and collegial in team interactions; active in farewell threads for departing colleagues [Source: Gmail, 2026-05-20]
+- Warm and collegial in team interactions [Source: Gmail, 2026-05-20]
 
 ## What They're Building
-- **Bitscale onboarding:** BU Head / executive sponsor for the Bitscale lead enrichment vendor onboarding (LinkedIn/web scraping for merchant leads) [Source: Gmail, 2026-05-20]
-- **VRM + Agentic Dashboard strategy:** Stakeholder in the VRM architecture and use-case definition; expected to re-engage once back from OOO [Source: Gmail, 2026-05-20]
+- **SME Payments charter:** BU Head for the full SME Payments group (Experience, Growth, Onboarding). Budget approvals and strategic alignment across all initiatives within this org. [Source: User, 2026-05-20]
+- **VRM project sponsor:** Aligned on VRM and supportive, but not involved in architecture or day-to-day. Gets updates through monthly group review meetings where charters present progress docs. [Source: User, 2026-05-20]
 
 ## What Motivates Them
-[No data yet]
+Timeline delivery. Pushes hard to meet commitments and will escalate when things slip. [Source: User, 2026-05-20]
 
 ## Hobby Horses
 [No data yet]
 
 ## Assessment
-Collegial and warm in peer interactions. As VP, holds BU-Head-level accountability for growth tooling investments like Bitscale. On VRM, plays a strategic stakeholder role — his OOO pattern suggests he's selective about which sessions require his presence vs. delegation. Reconnecting with him after OOO will be important for VRM architecture alignment.
+Hard taskmaster when needed — will escalate blockers and hold teams to timelines. Not a micromanager in day-to-day but will engage sharply if things slip. Similar feedback to Sagar on VRM updates: wants outcomes and progress, not activity. Bitscale involvement is limited to budget approval and alignment — not a sponsor in the operational sense there. [Source: User, 2026-05-20]
 
 ## Trajectory
 [No data yet]
 
 ## Relationship
-Skip-level manager of Vrajesh (Sagar Agarwal's manager). Key strategic stakeholder for VRM — his endorsement shapes CPO-level visibility. Needs to be looped in on VRM architecture decisions once he's back from OOO.
+Skip-level manager (Sagar's manager). Vrajesh interacts with him due to proximity but primary management relationship is with Sagar. Tejas gets monthly VRM updates through group review meetings (document-based). Is a VRM sponsor — his continued alignment matters for CPO-level visibility, but he doesn't need to be looped into architecture. [Source: User, 2026-05-20]
+
+**How to communicate with Tejas:**
+- Monthly group review doc is the primary channel
+- Lead with timelines, progress vs. plan, and blockers
+- Same preference as Sagar: outcomes > activity
+- Don't loop him into architecture — he's a sponsor, not a builder
 
 ## Contact
 - **Email:** tejas.gowda@razorpay.com
@@ -45,8 +51,8 @@ Skip-level manager of Vrajesh (Sagar Agarwal's manager). Key strategic stakehold
 - **DevRev:** DEVU-6610
 
 ## Open Threads
-- VRM architecture breakout sessions (May 18 & May 22) declined due to OOO — reschedule needed once Tejas is back
-- Bitscale onboarding progressing under his BU sponsorship; no action needed from Tejas currently
+- VRM architecture sessions (May 18 & May 22) declined due to OOO — no action needed, he's a sponsor not an architecture participant
+- Next monthly group review: ensure VRM update doc is crisp on timelines and outcomes
 
 ---
 

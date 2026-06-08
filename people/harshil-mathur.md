@@ -11,28 +11,30 @@ email: harshil.mathur@razorpay.com
 
 # Harshil Mathur
 
-> CEO of Razorpay. Personally involved in the VRM (Vendor Relationship Management) track. High-sensitivity executive engagement — loop in only when explicitly asked.
+> CEO of Razorpay. The original ideator of VRM — his concept, his conviction. An active explorer of AI tooling and new market developments. Currently believes VRM's core value should be a deep **memory layer** that connects all merchant touchpoints within Razorpay, and has tasked Anurag Rastogi to build it. High-sensitivity executive engagement — loop in only when explicitly asked.
 
 ## State
-CEO at Razorpay. Personally involved in the VRM track in an executive sponsor capacity. Given the sensitivity of the engagement, should only be contacted or looped in when explicitly requested. Not active in last 30 days of email signals.
+CEO at Razorpay. Originated the VRM idea. Has shaped the current strategic direction of VRM as a memory/connectivity layer. Not active in last 30 days of email signals.
 
 ## What They're Building
-[No active signals. Executive-level context only.]
+- **VRM — original ideator:** Harshil conceived VRM. Early versions were built by Anurag, with mixed results — some components worked, many turned out to be unnecessary given current thinking. [Source: User, 2026-05-20]
+- **Current VRM vision:** Believes VRM should be a **deep memory layer** connecting all merchant touchpoints across Razorpay — not a full agent stack. Has explicitly tasked Anurag with building this memory layer as a focused workstream. [Source: User, 2026-05-20]
+- **AI tooling exploration:** Actively explores new AI tools and market developments — not just a sponsor, participates in evaluating what's emerging. [Source: User, 2026-05-20]
 
 ## What Motivates Them
-[No data yet]
+Conviction in AI-native product building. Interested in connecting the dots across Razorpay's merchant data and touchpoints at a foundational level. [Source: User, 2026-05-20]
 
 ## Hobby Horses
-[No data yet]
+AI tooling and new market developments — actively follows and explores the space. [Source: User, 2026-05-20]
 
 ## Assessment
-Executive sponsor on the VRM track. CEO-level involvement signals that VRM has strategic importance for Razorpay. Any engagement should be handled with care — route through appropriate channels and only loop in if asked.
+The original VRM ideator and CEO. His current framing — VRM as memory layer vs. full agent — is the strategic north star Vrajesh is working within. The separation of concerns (Anurag on memory layer, Vrajesh on VRM product) is a direct result of Harshil's current thinking. Any VRM positioning work needs to be consistent with this framing, especially given the Friday alignment meeting with Khilan. [Source: User, 2026-05-20]
 
 ## Trajectory
-[No data yet]
+Shifting VRM from "build everything" to "build the right foundational layer." The memory layer framing is Harshil's most recent and active position. [Source: User, 2026-05-20]
 
 ## Relationship
-CEO of Razorpay; not in Vrajesh's direct reporting chain but relevant as an executive sponsor on the VRM track. Loop in only if asked.
+CEO of Razorpay; originated VRM. Not in Vrajesh's direct reporting chain. The fact that Harshil had the original VRM idea is strategically important — Vrajesh's work exists within a CEO-originated mandate. Loop in only if asked, but frame all VRM strategy as consistent with Harshil's memory-layer vision.
 
 ## Contact
 - **Email:** harshil.mathur@razorpay.com

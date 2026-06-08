@@ -4,13 +4,14 @@ type: person
 tags: [person, self]
 ---
 
-**Role:** Full-Stack AI Builder @ Razorpay
-**Background:** MERN engineer 2019–2021
-**Current focus:** VRM (Virtual Relationship Manager)
+**Role:** Product Manager, Onboarding Infrastructure @ Razorpay
+**Background:** MERN engineer 2019–2021, ex-PM in Growth/SME
+**Charters:** Onboarding Infrastructure (R1-Acqui), partially Conversational Onboarding
 **Reports to:** [[people/sagar-agarwal]]
+**Engineering Manager:** [[people/kailash-atal]]
+**Previous PM on charter:** Yameni Dhankar
 
-**North star:** M3–M12 merchant retention
-**Goal:** 1,000 merchants live on VRM by end of May 2026
+**Key Slack channels:** #unified-onboarding-infra, #r1-merchant-identity, #api_decomposition, #sme-onboarding, #conversational-onboarding-dev, #conversational-express-onboarding
 
 ---
 
@@ -25,5 +26,8 @@ tags: [person, self]
 
 ## Links
 
-- [[projects/vrm]]
-- [[okrs/fy26-q1]]
+- [[projects/onboarding-infrastructure]]
+- [[projects/conversational-onboarding]]
+- [[people/kailash-atal]]
+- [[people/sagar-agarwal]]
+- [[okrs/fy26-q2]]
