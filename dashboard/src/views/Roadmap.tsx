@@ -35,7 +35,23 @@ export default function Roadmap() {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-2xl font-bold font-heading animate-fade-in-up" style={{ color: 'var(--text-primary)' }}>Roadmap</h1>
+      <div className="flex items-center justify-between animate-fade-in-up">
+        <h1 className="text-2xl font-bold font-heading" style={{ color: 'var(--text-primary)' }}>Roadmap</h1>
+        <a
+          href="https://app.devrev.ai/razorpay/vistas/vista-405"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium transition-all hover:scale-105"
+          style={{
+            background: 'rgba(99, 102, 241, 0.1)',
+            border: '1px solid rgba(99, 102, 241, 0.3)',
+            color: '#a5b4fc',
+          }}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Open in DevRev
+        </a>
+      </div>
 
       {/* Legend */}
       <div className="flex gap-5 text-xs animate-fade-in-up delay-100" style={{ color: 'var(--text-secondary)' }}>

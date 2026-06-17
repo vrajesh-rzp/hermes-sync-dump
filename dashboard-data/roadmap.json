@@ -1,4 +1,7 @@
 {
+  "devrev_vista_url": "https://app.devrev.ai/razorpay/vistas/vista-405",
+  "devrev_parts_url": "https://app.devrev.ai/razorpay/parts?quickAccessId=don%3Acore%3Advrv-in-1%3Adevo%2F2sRI6Hepzz%3Avista%2F3425&vista_view_type=list&categories=rev_part&parent_parts=%7B%22include_child_parts%22%3Atrue%2C%22parts%22%3A%5B%22don%3Acore%3Advrv-in-1%3Adevo%2F2sRI6Hepzz%3Afeature%2F85%22%5D%7D&type=enhancement",
+  "last_synced": "2026-06-17T12:00:00Z",
   "enhancements": [
     {"id": "ENH-16636", "title": "API Decomp: NC (Network Centricity)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1", "details": "100% ramped, 1 P0 pending - Table Deletion. Close by 23 Jun."},
     {"id": "ENH-16769", "title": "API Decomp: User Service", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "Delayed. ETA: 20-Jul-2026."},
@@ -9,7 +12,8 @@
     {"id": "ENH-17976", "title": "Demerger", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "Scoping pending."},
     {"id": "ENH-18415", "title": "Address Verification (DataSutram + Quick Commerce)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "DataSutram integration live. Quick Commerce NDA pending."},
     {"id": "ENH-18418", "title": "CKYC Upload Compliance", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "Deprioritized — PRD needed for scope/testbed."},
-    {"id": "PSE-REDUCTION", "title": "PSE Ticket Reduction (post-MSME spike)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "225 tickets in May (target <15). CIN verification + MSME unit name fixes."},
+    {"id": "ENH-19187", "title": "PSE Ticket Reduction", "stage": "in_progress", "owner": "Kailash Atal", "quarter": "FY27 Q1-Q2", "details": "225 tickets in May (target <15). CIN verification + MSME unit name fixes."},
+    {"id": "ENH-19186", "title": "Signup Latency Reduction", "stage": "in_progress", "owner": "Kailash Atal", "quarter": "FY27 Q1-Q2", "details": "USL page load 3s → 1s target."},
     {"id": "FUNNEL-ADR", "title": "Auto-Decision Rate Recovery", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "Declined 83.6% → 81.5%. OCR accuracy + RPD for MKYC."},
     {"id": "1CLICK", "title": "1-Click Onboarding (20% Registered Businesses)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "AOA/MOA/COI from IDFY done. MSME from Authbridge pending."}
   ]
