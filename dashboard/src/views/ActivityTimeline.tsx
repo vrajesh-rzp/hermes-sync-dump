@@ -20,34 +20,42 @@ export default function ActivityTimeline() {
     return acc
   }, {})
 
-  const typeIcon = (type: string) => {
+  const typeNodeColor = (type: string) => {
     switch (type) {
-      case 'meeting': return 'bg-blue-500'
-      case 'decision': return 'bg-amber-500'
-      case 'document': return 'bg-purple-500'
-      case 'milestone': return 'bg-green-500'
-      default: return 'bg-gray-500'
+      case 'meeting': return '#3b82f6'
+      case 'decision': return '#f59e0b'
+      case 'document': return '#a855f7'
+      case 'milestone': return '#10b981'
+      default: return '#6b7280'
     }
   }
 
-  const typeBadge = (type: string) => {
+  const typeBadgeStyle = (type: string) => {
     switch (type) {
-      case 'meeting': return 'bg-blue-500/20 text-blue-400'
-      case 'decision': return 'bg-amber-500/20 text-amber-400'
-      case 'document': return 'bg-purple-500/20 text-purple-400'
-      case 'milestone': return 'bg-green-500/20 text-green-400'
-      default: return 'bg-gray-500/20 text-gray-400'
+      case 'meeting': return { bg: 'rgba(59, 130, 246, 0.08)', color: '#60a5fa', border: 'rgba(59, 130, 246, 0.15)' }
+      case 'decision': return { bg: 'rgba(245, 158, 11, 0.08)', color: '#fbbf24', border: 'rgba(245, 158, 11, 0.15)' }
+      case 'document': return { bg: 'rgba(168, 85, 247, 0.08)', color: '#c084fc', border: 'rgba(168, 85, 247, 0.15)' }
+      case 'milestone': return { bg: 'rgba(16, 185, 129, 0.08)', color: '#34d399', border: 'rgba(16, 185, 129, 0.15)' }
+      default: return { bg: 'rgba(255, 255, 255, 0.03)', color: '#94a3b8', border: 'rgba(255, 255, 255, 0.08)' }
     }
   }
+
+  const sortedDates = Object.entries(grouped).sort(([a], [b]) => b.localeCompare(a))
+  const isFirstEntry = (dateIdx: number, itemIdx: number) => dateIdx === 0 && itemIdx === 0
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-gray-100">Activity Timeline</h1>
+      <div className="flex items-center justify-between animate-fade-in-up">
+        <h1 className="text-2xl font-bold font-heading" style={{ color: 'var(--text-primary)' }}>Activity Timeline</h1>
         <select
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
-          className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-gray-200 text-sm"
+          className="px-4 py-2.5 rounded-xl text-sm"
+          style={{
+            background: 'rgba(255, 255, 255, 0.03)',
+            border: '1px solid rgba(255, 255, 255, 0.08)',
+            color: 'var(--text-primary)',
+          }}
         >
           <option value="all">All Types</option>
           <option value="meeting">Meetings</option>
@@ -57,32 +65,63 @@ export default function ActivityTimeline() {
         </select>
       </div>
 
-      <div className="space-y-6">
-        {Object.entries(grouped).sort(([a], [b]) => b.localeCompare(a)).map(([date, items]) => (
-          <div key={date}>
-            <h2 className="text-sm font-semibold text-gray-400 mb-3 sticky top-0 bg-gray-900 py-1">{date}</h2>
-            <div className="space-y-2 ml-4 border-l border-gray-700 pl-4">
-              {items.map((item) => (
-                <div key={item.id} className="relative flex items-start gap-3">
-                  <div className={`absolute -left-[21px] top-2 w-3 h-3 rounded-full ${typeIcon(item.type)}`} />
-                  <div className="bg-gray-800 border border-gray-700 rounded-lg p-3 flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className={`text-xs px-2 py-0.5 rounded-full ${typeBadge(item.type)}`}>
+      <div className="space-y-8 relative">
+        {/* Glowing timeline connector */}
+        <div className="timeline-connector ml-[11px]" />
+
+        {sortedDates.map(([date, items], dateIdx) => (
+          <div key={date} className="animate-fade-in-up" style={{ animationDelay: `${dateIdx * 100}ms` }}>
+            {/* Date header */}
+            <div className="flex items-center gap-3 mb-4 relative z-10">
+              <div className="w-6 h-6 rounded-full flex items-center justify-center" style={{
+                background: 'rgba(139, 92, 246, 0.15)',
+                border: '2px solid rgba(139, 92, 246, 0.4)',
+                boxShadow: '0 0 8px rgba(139, 92, 246, 0.2)',
+              }}>
+                <div className="w-2 h-2 rounded-full" style={{ background: 'var(--accent-violet)' }} />
+              </div>
+              <h2 className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
+                {date}
+              </h2>
+            </div>
+
+            {/* Items */}
+            <div className="space-y-3 ml-12">
+              {items.map((item, itemIdx) => {
+                const badge = typeBadgeStyle(item.type)
+                const isNew = isFirstEntry(dateIdx, itemIdx)
+
+                return (
+                  <div key={item.id}
+                    className="glass-card p-4 animate-slide-in-left"
+                    style={{ animationDelay: `${dateIdx * 100 + itemIdx * 60}ms` }}>
+                    <div className="flex items-center gap-3 mb-1.5">
+                      {isNew && (
+                        <span className="text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider animate-pulse-glow"
+                          style={{ background: 'rgba(6, 182, 212, 0.1)', color: 'var(--accent-cyan)', border: '1px solid rgba(6, 182, 212, 0.3)' }}>
+                          NEW
+                        </span>
+                      )}
+                      <span className="text-[10px] px-2.5 py-0.5 rounded-full font-medium" style={{
+                        background: badge.bg,
+                        color: badge.color,
+                        border: `1px solid ${badge.border}`,
+                      }}>
                         {item.type}
                       </span>
-                      <h3 className="text-sm font-medium text-gray-200">{item.title}</h3>
+                      <h3 className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{item.title}</h3>
                     </div>
                     {item.participants && (
-                      <p className="text-xs text-gray-500">
+                      <p className="text-xs ml-0" style={{ color: 'var(--text-dim)' }}>
                         Participants: {item.participants.join(', ')}
                       </p>
                     )}
                     {item.description && (
-                      <p className="text-xs text-gray-400 mt-1">{item.description}</p>
+                      <p className="text-xs mt-1" style={{ color: 'var(--text-secondary)' }}>{item.description}</p>
                     )}
                   </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
           </div>
         ))}
