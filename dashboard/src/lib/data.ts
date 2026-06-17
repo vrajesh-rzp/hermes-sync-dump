@@ -13,7 +13,30 @@ async function fetchJSON<T>(file: string): Promise<T | null> {
 }
 
 export async function loadOKRs(): Promise<OKR[]> {
-  return (await fetchJSON<OKR[]>('okrs.json')) ?? getSampleOKRs()
+  const raw = await fetchJSON<any>('okrs.json')
+  if (!raw) return getSampleOKRs()
+  // Handle {objectives: [...]} wrapper format
+  const objectives = Array.isArray(raw) ? raw : raw.objectives ?? []
+  return objectives.map((o: any) => ({
+    id: o.id,
+    objective: o.title || o.objective,
+    keyResults: (o.keyResults || []).map((kr: any) => ({
+      id: kr.id,
+      title: kr.title,
+      current: kr.current ?? 0,
+      target: kr.target ?? 1,
+      unit: kr.unit || '',
+      ragStatus: mapStatus(kr.status),
+      history: kr.history || [],
+    })),
+  }))
+}
+
+function mapStatus(s: string): 'green' | 'amber' | 'red' {
+  if (s === 'on_track') return 'green'
+  if (s === 'at_risk') return 'red'
+  if (s === 'in_progress') return 'amber'
+  return 'amber'
 }
 
 export async function loadGraph(): Promise<KnowledgeGraphData> {
@@ -21,15 +44,44 @@ export async function loadGraph(): Promise<KnowledgeGraphData> {
 }
 
 export async function loadPeople(): Promise<Person[]> {
-  return (await fetchJSON<Person[]>('people.json')) ?? getSamplePeople()
+  const raw = await fetchJSON<any[]>('people.json')
+  if (!raw || !Array.isArray(raw)) return getSamplePeople()
+  return raw.map((p: any) => ({
+    id: p.slug || p.id,
+    name: p.name,
+    role: p.role || '',
+    team: p.team || '',
+    meetings: p.meetings ?? 0,
+    lastInteraction: p.updated_at || p.lastInteraction,
+  }))
 }
 
 export async function loadRoadmap(): Promise<RoadmapItem[]> {
-  return (await fetchJSON<RoadmapItem[]>('roadmap.json')) ?? getSampleRoadmap()
+  const raw = await fetchJSON<any>('roadmap.json')
+  if (!raw) return getSampleRoadmap()
+  const items = Array.isArray(raw) ? raw : raw.enhancements ?? []
+  return items.map((r: any) => ({
+    id: r.id,
+    title: r.title,
+    stage: r.stage as RoadmapItem['stage'],
+    quarter: r.quarter,
+    owner: r.owner,
+    startDate: r.startDate,
+    endDate: r.endDate,
+  }))
 }
 
 export async function loadActivity(): Promise<ActivityItem[]> {
-  return (await fetchJSON<ActivityItem[]>('activity.json')) ?? getSampleActivity()
+  const raw = await fetchJSON<any[]>('activity.json')
+  if (!raw || !Array.isArray(raw)) return getSampleActivity()
+  return raw.map((a: any, i: number) => ({
+    id: a.id || a.slug || String(i),
+    title: a.title,
+    type: a.type === 'meeting' ? 'meeting' : a.type === 'decision' ? 'decision' : 'document',
+    date: a.date,
+    description: a.description,
+    participants: a.participants,
+  }))
 }
 
 export async function loadDocuments(): Promise<DocumentItem[]> {
