@@ -1,84 +1,1408 @@
 [
-  {"slug": "people/anurag-rastogi", "type": "person", "title": "Anurag Rastogi", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/anushri-singhai", "type": "person", "title": "Anushri Singhai", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/apoorv-chaturvedi", "type": "person", "title": "Apoorv Chaturvedi", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/apuarv-sethi", "type": "person", "title": "Apuarv Sethi", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/ashish-tewari", "type": "person", "title": "Ashish Chandra Tewari", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/bhoomika-barua", "type": "person", "title": "Bhoomika Barua", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/dhanam-parekh", "type": "person", "title": "Dhanam Parekh", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/dinesh-k-r-navada", "type": "person", "title": "Dinesh K R Navada", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/dushyant-panda", "type": "person", "title": "Dushyant Panda", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/elancheziyan-a-s", "type": "person", "title": "Elancheziyan A S", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/harshil-mathur", "type": "person", "title": "Harshil Mathur", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/kailash-atal", "type": "person", "title": "Kailash Atal", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/ketan-dilip-suryawanshi", "type": "person", "title": "Ketan Dilip Suryawanshi", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/khilan-haria", "type": "person", "title": "Khilan Haria", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/kuriseti-perumalla-sathwik", "type": "person", "title": "Kuriseti Perumalla Sathwik", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/miran-hamid", "type": "person", "title": "Miran Hamid", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/neeraj-sati", "type": "person", "title": "Neeraj Sati", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/nikhil-khadilkar", "type": "person", "title": "Nikhil Uday Khadilkar", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/nikunj-kaushik", "type": "person", "title": "Nikunj Kaushik", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/parul-singh", "type": "person", "title": "Parul Singh", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/prabu-ram", "type": "person", "title": "Prabu Ram", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/prashant-chaudhary", "type": "person", "title": "Prashant Chaudhary", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/raktim-talukdar", "type": "person", "title": "Raktim Talukdar", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/ramya-subramaniam", "type": "person", "title": "Ramya Subramaniam", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/rishav-loomba", "type": "person", "title": "Rishav Loomba", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/sagar-agarwal", "type": "person", "title": "Sagar Agarwal", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/satyam-mishra", "type": "person", "title": "Satyam Mishra", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/shashank-kumar", "type": "person", "title": "Shashank Kumar", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/shashidhar-v-c", "type": "person", "title": "Shashidhar V C", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/sheetal-monica-murthy", "type": "person", "title": "Sheetal Monica Murthy", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/shubham-singhal", "type": "person", "title": "Shubham Singhal", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/swati-pandey", "type": "person", "title": "Swati Pandey", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/tejas-gowda", "type": "person", "title": "Tejas Gowda", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/tushar-saxena", "type": "person", "title": "Tushar Saxena", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/varghese-mathew", "type": "person", "title": "Varghese Mathew", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/vinay-chopra", "type": "person", "title": "Vinay Chopra", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/vrajesh-iyengar", "type": "person", "title": "Vrajesh Jaidev Iyengar", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "people/yameni-dhankar", "type": "person", "title": "Yameni Dhankar", "updated_at": "2026-05-20", "tags": ["person"]},
-  {"slug": "meetings/2026-03-16-growth_pod_weekly_check-in", "type": "meeting", "title": "Growth Pod Weekly Check-In", "updated_at": "2026-03-16", "tags": ["meeting", "growth"]},
-  {"slug": "meetings/2026-04-01-imp__ownership_allignment___path_forward", "type": "meeting", "title": "IMP: Ownership Alignment & Path Forward", "updated_at": "2026-04-01", "tags": ["meeting", "important"]},
-  {"slug": "meetings/2026-04-23-vrm_-_sagar___vrajesh", "type": "meeting", "title": "VRM - Sagar / Vrajesh", "updated_at": "2026-04-23", "tags": ["meeting", "vrm", "1-on-1"]},
-  {"slug": "meetings/2026-04-23-vrm_auth_flow_discussion", "type": "meeting", "title": "VRM Auth Flow Discussion", "updated_at": "2026-04-23", "tags": ["meeting", "vrm", "security"]},
-  {"slug": "meetings/2026-04-23-vrm_weekly_sync", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-04-23", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-04-24-bitscale_nda___saas_order_form", "type": "meeting", "title": "Bitscale NDA & SaaS Order Form", "updated_at": "2026-04-24", "tags": ["meeting", "vendor"]},
-  {"slug": "meetings/2026-04-28-vrm_-_auth___security_considerations.", "type": "meeting", "title": "VRM - Auth & Security Considerations", "updated_at": "2026-04-28", "tags": ["meeting", "vrm", "security"]},
-  {"slug": "meetings/2026-04-28-vrm_weekly_sync-1", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-04-28", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-04-28-vrm_weekly_sync", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-04-28", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-05-05-vrm_x_agentic_dashboard_-_security_review", "type": "meeting", "title": "VRM x Agentic Dashboard - Security Review", "updated_at": "2026-05-05", "tags": ["meeting", "vrm", "security", "agentic-dashboard"]},
-  {"slug": "meetings/2026-05-12-imp__vrm____devops", "type": "meeting", "title": "IMP: VRM / DevOps", "updated_at": "2026-05-12", "tags": ["meeting", "vrm", "devops", "important"]},
-  {"slug": "meetings/2026-05-12-vrm_weekly_sync", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-05-12", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-05-13-vrm____rspl_cluster_migration____edge_review", "type": "meeting", "title": "VRM / RSPL Cluster Migration / Edge Review", "updated_at": "2026-05-13", "tags": ["meeting", "vrm", "infrastructure"]},
-  {"slug": "meetings/2026-05-14-vrm_weekly_sync", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-05-14", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-05-19-vrm_weekly_sync-1", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-05-19", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-05-19-vrm_weekly_sync", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-05-19", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-05-25-vrm_memory_layer_-_anurag___vrajesh", "type": "meeting", "title": "VRM Memory Layer - Anurag / Vrajesh", "updated_at": "2026-05-25", "tags": ["meeting", "vrm", "architecture"]},
-  {"slug": "meetings/2026-05-26-vrm_weekly_sync", "type": "meeting", "title": "VRM Weekly Sync", "updated_at": "2026-05-26", "tags": ["meeting", "vrm", "weekly"]},
-  {"slug": "meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout", "type": "meeting", "title": "VRM x Agentic Dashboard - Architecture & Use-Case Breakout", "updated_at": "2026-05-26", "tags": ["meeting", "vrm", "agentic-dashboard", "architecture"]},
-  {"slug": "meetings/2026-05-29-meeting_started_2026___05___29_14_50_ist_meeting", "type": "meeting", "title": "Meeting Started 2026-05-29 14:50 IST", "updated_at": "2026-05-29", "tags": ["meeting"]},
-  {"slug": "meetings/2026-06-02-nirvisha___vrajesh_meeting", "type": "meeting", "title": "Nirvisha / Vrajesh Meeting", "updated_at": "2026-06-02", "tags": ["meeting", "1-on-1"]},
-  {"slug": "meetings/2026-06-08-ankit___vrajesh_meeting", "type": "meeting", "title": "Ankit / Vrajesh Meeting", "updated_at": "2026-06-08", "tags": ["meeting", "1-on-1"]},
-  {"slug": "meetings/2026-06-08-gamification_kt_session_1", "type": "meeting", "title": "Gamification KT Session 1", "updated_at": "2026-06-08", "tags": ["meeting", "gamification", "kt"]},
-  {"slug": "meetings/2026-06-08-growth_ideas_discussion-1", "type": "meeting", "title": "Growth Ideas Discussion", "updated_at": "2026-06-08", "tags": ["meeting", "growth"]},
-  {"slug": "meetings/2026-06-08-growth_ideas_discussion", "type": "meeting", "title": "Growth Ideas Discussion", "updated_at": "2026-06-08", "tags": ["meeting", "growth"]},
-  {"slug": "meetings/2026-06-08-kailash___vrajesh_meeting", "type": "meeting", "title": "Kailash / Vrajesh Meeting", "updated_at": "2026-06-08", "tags": ["meeting", "1-on-1"]},
-  {"slug": "meetings/2026-06-08-shubham_x_nikhil_x_vrajesh", "type": "meeting", "title": "Shubham x Nikhil x Vrajesh", "updated_at": "2026-06-08", "tags": ["meeting", "growth"]},
-  {"slug": "meetings/2026-06-08-sprint_planning_-_growth", "type": "meeting", "title": "Sprint Planning - Growth", "updated_at": "2026-06-08", "tags": ["meeting", "growth", "sprint"]},
-  {"slug": "meetings/2026-06-08-ssa_syncup_block", "type": "meeting", "title": "SSA Syncup Block", "updated_at": "2026-06-08", "tags": ["meeting"]},
-  {"slug": "meetings/2026-06-08-subscription_issues_-_connect", "type": "meeting", "title": "Subscription Issues - Connect", "updated_at": "2026-06-08", "tags": ["meeting", "subscriptions"]},
-  {"slug": "meetings/2026-06-08-subscriptions_daily_sync", "type": "meeting", "title": "Subscriptions Daily Sync", "updated_at": "2026-06-08", "tags": ["meeting", "subscriptions"]},
-  {"slug": "meetings/2026-06-08-vrm___ai_calling_-_kt__session_1", "type": "meeting", "title": "VRM / AI Calling - KT Session 1", "updated_at": "2026-06-08", "tags": ["meeting", "vrm", "ai-calling", "kt"]},
-  {"slug": "meetings/2026-06-08-vrm_clm_-_anurag___vrajesh", "type": "meeting", "title": "VRM CLM - Anurag / Vrajesh", "updated_at": "2026-06-08", "tags": ["meeting", "vrm"]},
-  {"slug": "meetings/2026-06-08-website_sales_agent_kt", "type": "meeting", "title": "Website Sales Agent KT", "updated_at": "2026-06-08", "tags": ["meeting", "kt"]},
-  {"slug": "meetings/2026-06-16-new_merchant_credits_offer_testing", "type": "meeting", "title": "New Merchant Credits Offer Testing", "updated_at": "2026-06-16", "tags": ["meeting", "growth", "testing"]},
-  {"slug": "concepts/merchant-lifecycle", "type": "concept", "title": "Merchant Lifecycle", "updated_at": "2026-05-20", "tags": ["concept", "merchant"]},
-  {"slug": "concepts/vrm-signal-detection", "type": "concept", "title": "VRM Signal Detection", "updated_at": "2026-05-20", "tags": ["concept", "vrm", "signals"]},
-  {"slug": "projects/vrm", "type": "project", "title": "VRM (Virtual Relationship Manager)", "updated_at": "2026-05-20", "tags": ["project", "vrm"]},
-  {"slug": "projects/onboarding-infrastructure", "type": "project", "title": "Onboarding Infrastructure", "updated_at": "2026-05-20", "tags": ["project", "onboarding"]},
-  {"slug": "projects/conversational-onboarding", "type": "project", "title": "Conversational Onboarding", "updated_at": "2026-05-20", "tags": ["project", "onboarding"]},
-  {"slug": "okrs/fy26-q1", "type": "okr", "title": "FY26 Q1 OKRs", "updated_at": "2026-05-20", "tags": ["okr"]},
-  {"slug": "okrs/fy26-q2", "type": "okr", "title": "FY26 Q2 OKRs", "updated_at": "2026-05-20", "tags": ["okr"]},
-  {"slug": "decisions/aws-cluster-migration", "type": "decision", "title": "AWS Cluster Migration", "updated_at": "2026-05-20", "tags": ["decision", "infrastructure"]},
-  {"slug": "code/vrm-agentic-dashboard", "type": "code", "title": "VRM Agentic Dashboard", "updated_at": "2026-05-20", "tags": ["code", "vrm", "agentic-dashboard"]}
+  {
+    "slug": "readme",
+    "type": "note",
+    "title": "Readme",
+    "updated_at": "2026-06-17T12:14:58.251764Z",
+    "tags": []
+  },
+  {
+    "slug": "okrs/fy26-q1",
+    "type": "okr",
+    "title": "Fy26 Q1",
+    "updated_at": "2026-06-17T12:14:58.258382Z",
+    "tags": [
+      "okr",
+      "fy26"
+    ]
+  },
+  {
+    "slug": "okrs/fy26-q2",
+    "type": "okr",
+    "title": "Fy26 Q2",
+    "updated_at": "2026-06-17T12:14:58.258451Z",
+    "tags": [
+      "okr",
+      "fy26"
+    ]
+  },
+  {
+    "slug": "projects/onboarding-infrastructure",
+    "type": "project",
+    "title": "Onboarding Infrastructure",
+    "updated_at": "2026-06-17T12:14:58.261087Z",
+    "tags": [
+      "project",
+      "onboarding",
+      "merchant-identity",
+      "kyc",
+      "r1-acqui"
+    ]
+  },
+  {
+    "slug": "projects/conversational-onboarding",
+    "type": "project",
+    "title": "Conversational Onboarding",
+    "updated_at": "2026-06-17T12:14:58.261027Z",
+    "tags": [
+      "project",
+      "conversational-onboarding",
+      "agentic",
+      "ai"
+    ]
+  },
+  {
+    "slug": "projects/vrm",
+    "type": "project",
+    "title": "Vrm",
+    "updated_at": "2026-06-17T12:14:58.261159Z",
+    "tags": [
+      "project",
+      "vrm",
+      "ai",
+      "retention"
+    ]
+  },
+  {
+    "slug": "code/vrm-agentic-dashboard",
+    "type": "code",
+    "title": "Vrm Agentic Dashboard",
+    "updated_at": "2026-06-17T12:14:58.251893Z",
+    "tags": [
+      "code",
+      "vrm",
+      "backend"
+    ]
+  },
+  {
+    "slug": "decisions/readme",
+    "type": "decision",
+    "title": "decisions/",
+    "updated_at": "2026-06-17T12:14:58.252352Z",
+    "tags": []
+  },
+  {
+    "slug": "decisions/vrm-scrapped",
+    "type": "decision",
+    "title": "VRM Project Scrapped by Leadership",
+    "updated_at": "2026-06-17T13:55:56.868684Z",
+    "tags": []
+  },
+  {
+    "slug": "decisions/aws-cluster-migration",
+    "type": "decision",
+    "title": "Aws Cluster Migration",
+    "updated_at": "2026-06-17T12:14:58.252434Z",
+    "tags": [
+      "decision",
+      "infra",
+      "vrm"
+    ]
+  },
+  {
+    "slug": "people/ketan-dilip-suryawanshi",
+    "type": "person",
+    "title": "Ketan Dilip Suryawanshi",
+    "updated_at": "2026-06-17T12:14:58.259295Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/khilan-haria",
+    "type": "person",
+    "title": "Khilan Haria",
+    "updated_at": "2026-06-17T12:14:58.259371Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/neeraj-sati",
+    "type": "person",
+    "title": "Neeraj Sati",
+    "updated_at": "2026-06-17T12:14:58.259557Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/shubham-singhal",
+    "type": "person",
+    "title": "Shubham Singhal",
+    "updated_at": "2026-06-17T12:14:58.260491Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/prabu-ram",
+    "type": "person",
+    "title": "Prabu Ram",
+    "updated_at": "2026-06-17T12:14:58.259856Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/apuarv-sethi",
+    "type": "person",
+    "title": "Apuarv Sethi",
+    "updated_at": "2026-06-17T12:14:58.258736Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/dhanam-parekh",
+    "type": "person",
+    "title": "Dhanam Parekh",
+    "updated_at": "2026-06-17T12:14:58.258911Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/sheetal-monica-murthy",
+    "type": "person",
+    "title": "Sheetal Monica Murthy",
+    "updated_at": "2026-06-17T12:14:58.260430Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/dinesh-k-r-navada",
+    "type": "person",
+    "title": "Dinesh K R Navada",
+    "updated_at": "2026-06-17T12:14:58.258970Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/rishav-loomba",
+    "type": "person",
+    "title": "Rishav Loomba",
+    "updated_at": "2026-06-17T12:14:58.260107Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/varghese-mathew",
+    "type": "person",
+    "title": "Varghese Mathew",
+    "updated_at": "2026-06-17T12:14:58.260741Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/nikunj-kaushik",
+    "type": "person",
+    "title": "Nikunj Kaushik",
+    "updated_at": "2026-06-17T12:14:58.259709Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/dushyant-panda",
+    "type": "person",
+    "title": "Dushyant Panda",
+    "updated_at": "2026-06-17T12:14:58.259031Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/vinay-chopra",
+    "type": "person",
+    "title": "Vinay Chopra",
+    "updated_at": "2026-06-17T12:14:58.260801Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/raktim-talukdar",
+    "type": "person",
+    "title": "Raktim Talukdar",
+    "updated_at": "2026-06-17T12:14:58.259974Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/anushri-singhai",
+    "type": "person",
+    "title": "Anushri Singhai",
+    "updated_at": "2026-06-17T12:14:58.258617Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/shashidhar-v-c",
+    "type": "person",
+    "title": "Shashidhar V C",
+    "updated_at": "2026-06-17T12:14:58.260370Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/tushar-saxena",
+    "type": "person",
+    "title": "Tushar Saxena",
+    "updated_at": "2026-06-17T12:14:58.260680Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/satyam-mishra",
+    "type": "person",
+    "title": "Satyam Mishra",
+    "updated_at": "2026-06-17T12:14:58.260255Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/bhoomika-barua",
+    "type": "person",
+    "title": "Bhoomika Barua",
+    "updated_at": "2026-06-17T12:14:58.258855Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/prashant-chaudhary",
+    "type": "person",
+    "title": "Prashant Chaudhary",
+    "updated_at": "2026-06-17T12:14:58.259918Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/sagar-agarwal",
+    "type": "person",
+    "title": "Sagar Agarwal",
+    "updated_at": "2026-06-17T12:14:58.260189Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/miran-hamid",
+    "type": "person",
+    "title": "Miran Hamid",
+    "updated_at": "2026-06-17T12:14:58.259493Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/vrajesh-iyengar",
+    "type": "person",
+    "title": "Vrajesh Iyengar",
+    "updated_at": "2026-06-17T12:14:58.260860Z",
+    "tags": [
+      "person",
+      "self"
+    ]
+  },
+  {
+    "slug": "people/anurag-rastogi",
+    "type": "person",
+    "title": "Anurag Rastogi",
+    "updated_at": "2026-06-17T12:14:58.258556Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/nikhil-khadilkar",
+    "type": "person",
+    "title": "Nikhil Uday Khadilkar",
+    "updated_at": "2026-06-17T12:14:58.259629Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/kailash-atal",
+    "type": "person",
+    "title": "Kailash Atal",
+    "updated_at": "2026-06-17T12:14:58.259222Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "engineering-manager"
+    ]
+  },
+  {
+    "slug": "people/ashish-tewari",
+    "type": "person",
+    "title": "Ashish Chandra Tewari",
+    "updated_at": "2026-06-17T12:14:58.258795Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/tejas-gowda",
+    "type": "person",
+    "title": "Tejas Gowda",
+    "updated_at": "2026-06-17T12:14:58.260621Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/ramya-subramaniam",
+    "type": "person",
+    "title": "Ramya Subramaniam",
+    "updated_at": "2026-06-17T12:14:58.260036Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/apoorv-chaturvedi",
+    "type": "person",
+    "title": "Apoorv Chaturvedi",
+    "updated_at": "2026-06-17T12:14:58.258677Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/parul-singh",
+    "type": "person",
+    "title": "Parul Singh",
+    "updated_at": "2026-06-17T12:14:58.259780Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/shashank-kumar",
+    "type": "person",
+    "title": "Shashank Kumar",
+    "updated_at": "2026-06-17T12:14:58.260316Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/yameni-dhankar",
+    "type": "person",
+    "title": "Yameni Dhankar",
+    "updated_at": "2026-06-17T12:14:58.260921Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "product-manager"
+    ]
+  },
+  {
+    "slug": "people/swati-pandey",
+    "type": "person",
+    "title": "Swati Pandey",
+    "updated_at": "2026-06-17T12:14:58.260550Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/elancheziyan-a-s",
+    "type": "person",
+    "title": "Elancheziyan A S",
+    "updated_at": "2026-06-17T12:14:58.259086Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "people/harshil-mathur",
+    "type": "person",
+    "title": "Harshil Mathur",
+    "updated_at": "2026-06-17T12:14:58.259148Z",
+    "tags": [
+      "person",
+      "razorpay"
+    ]
+  },
+  {
+    "slug": "people/kuriseti-perumalla-sathwik",
+    "type": "person",
+    "title": "Kuriseti Perumalla Sathwik",
+    "updated_at": "2026-06-17T12:14:58.259430Z",
+    "tags": [
+      "person",
+      "razorpay",
+      "ob-infra"
+    ]
+  },
+  {
+    "slug": "concepts/vrm-signal-detection",
+    "type": "concept",
+    "title": "Vrm Signal Detection",
+    "updated_at": "2026-06-17T12:14:58.252225Z",
+    "tags": [
+      "concept",
+      "vrm",
+      "ai"
+    ]
+  },
+  {
+    "slug": "concepts/merchant-lifecycle",
+    "type": "concept",
+    "title": "Merchant Lifecycle",
+    "updated_at": "2026-06-17T12:14:58.252097Z",
+    "tags": [
+      "concept",
+      "vrm",
+      "retention",
+      "merchants"
+    ]
+  },
+  {
+    "slug": "skills/_output-rules",
+    "type": "skill",
+    "title": "Output Rules",
+    "updated_at": "2026-06-17T12:14:58.261507Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/_agent_readme",
+    "type": "skill",
+    "title": "Agent onboarding \u2014 what to do with the files in this directory",
+    "updated_at": "2026-06-17T12:14:58.261275Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/_brain-filing-rules",
+    "type": "skill",
+    "title": "Brain Filing Rules -- MANDATORY for all skills that write to the brain",
+    "updated_at": "2026-06-17T12:14:58.261447Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/voice-note-ingest/skill",
+    "type": "skill",
+    "title": "voice-note-ingest \u2014 Exact-Phrasing Voice Capture",
+    "updated_at": "2026-06-17T12:14:58.267570Z",
+    "tags": [
+      "voice-note",
+      "relevant-tags"
+    ]
+  },
+  {
+    "slug": "skills/article-enrichment/skill",
+    "type": "skill",
+    "title": "article-enrichment \u2014 From Raw Dumps to Useful Brain Pages",
+    "updated_at": "2026-06-17T12:14:58.262015Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/book-mirror/skill",
+    "type": "skill",
+    "title": "book-mirror \u2014 Personalized Chapter-by-Chapter Book Analysis",
+    "updated_at": "2026-06-17T12:14:58.262227Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/minion-orchestrator/skill",
+    "type": "skill",
+    "title": "Minion Orchestrator",
+    "updated_at": "2026-06-17T12:14:58.265798Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/daily-task-prep/skill",
+    "type": "skill",
+    "title": "Daily Task Prep",
+    "updated_at": "2026-06-17T12:14:58.264418Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/citation-fixer/skill",
+    "type": "skill",
+    "title": "Citation Fixer Skill",
+    "updated_at": "2026-06-17T12:14:58.262885Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/cron-scheduler/skill",
+    "type": "skill",
+    "title": "Cron Scheduler",
+    "updated_at": "2026-06-17T12:14:58.264111Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/archive-crawler/skill",
+    "type": "skill",
+    "title": "archive-crawler \u2014 The Universal Archivist",
+    "updated_at": "2026-06-17T12:14:58.261822Z",
+    "tags": [
+      "tag-1",
+      "tag-2"
+    ]
+  },
+  {
+    "slug": "skills/ingest/skill",
+    "type": "skill",
+    "title": "Ingest Skill",
+    "updated_at": "2026-06-17T12:14:58.265239Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/repo-architecture/skill",
+    "type": "skill",
+    "title": "Repo Architecture \u2014 Filing Rules",
+    "updated_at": "2026-06-17T12:14:58.266240Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/brain-ops/skill",
+    "type": "skill",
+    "title": "Brain Operations \u2014 The Ambient Context Layer",
+    "updated_at": "2026-06-17T12:14:58.262412Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/skillpack-check/skill",
+    "type": "skill",
+    "title": "Skillpack Check",
+    "updated_at": "2026-06-17T12:14:58.266760Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/signal-detector/skill",
+    "type": "skill",
+    "title": "Signal Detector \u2014 Ambient Brain Capture",
+    "updated_at": "2026-06-17T12:14:58.266449Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/skillify/skill",
+    "type": "skill",
+    "title": "Skillify \u2014 The Meta Skill",
+    "updated_at": "2026-06-17T12:14:58.266652Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/maintain/skill",
+    "type": "skill",
+    "title": "Maintain Skill",
+    "updated_at": "2026-06-17T12:14:58.265372Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/testing/skill",
+    "type": "skill",
+    "title": "Testing Skill \u2014 Validation + Daily Health & Regression Intelligence",
+    "updated_at": "2026-06-17T12:14:58.267454Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/skill-creator/skill",
+    "type": "skill",
+    "title": "Skill Creator",
+    "updated_at": "2026-06-17T12:14:58.266536Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/functional-area-resolver/skill",
+    "type": "skill",
+    "title": "Functional-Area Resolver \u2014 Pattern for Compressing Routing Tables",
+    "updated_at": "2026-06-17T12:14:58.264915Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/briefing/skill",
+    "type": "skill",
+    "title": "Briefing Skill",
+    "updated_at": "2026-06-17T12:14:58.262781Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/data-research/skill",
+    "type": "skill",
+    "title": "Data Research",
+    "updated_at": "2026-06-17T12:14:58.264519Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/idea-ingest/skill",
+    "type": "skill",
+    "title": "Idea Ingest Skill",
+    "updated_at": "2026-06-17T12:14:58.265112Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/cross-modal-review/skill",
+    "type": "skill",
+    "title": "Cross-Modal Review",
+    "updated_at": "2026-06-17T12:14:58.264220Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/search-modes",
+    "type": "skill",
+    "title": "Convention: Search Modes (v0.32.3)",
+    "updated_at": "2026-06-17T12:14:58.263887Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/cron-via-minions",
+    "type": "skill",
+    "title": "Cron via Minions Convention",
+    "updated_at": "2026-06-17T12:14:58.263583Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/subagent-routing",
+    "type": "skill",
+    "title": "Subagent Routing Convention",
+    "updated_at": "2026-06-17T12:14:58.263950Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/calibration",
+    "type": "skill",
+    "title": "Convention: calibration loop (v0.36.1.0)",
+    "updated_at": "2026-06-17T12:14:58.263516Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/quality",
+    "type": "skill",
+    "title": "Quality Convention",
+    "updated_at": "2026-06-17T12:14:58.263758Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/test-before-bulk",
+    "type": "skill",
+    "title": "Test Before Bulk Convention",
+    "updated_at": "2026-06-17T12:14:58.264014Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/salience-and-recency",
+    "type": "skill",
+    "title": "Salience + Recency on `gbrain query` (v0.29.1)",
+    "updated_at": "2026-06-17T12:14:58.263824Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/model-routing",
+    "type": "skill",
+    "title": "Model Routing Convention",
+    "updated_at": "2026-06-17T12:14:58.263700Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/brain-routing",
+    "type": "skill",
+    "title": "Brain Routing Convention",
+    "updated_at": "2026-06-17T12:14:58.263440Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/conventions/brain-first",
+    "type": "skill",
+    "title": "Brain-First Lookup Convention",
+    "updated_at": "2026-06-17T12:14:58.263319Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/brain-pdf/skill",
+    "type": "skill",
+    "title": "brain-pdf \u2014 Render a Brain Page to Publication-Quality PDF",
+    "updated_at": "2026-06-17T12:14:58.262565Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/academic-verify/skill",
+    "type": "skill",
+    "title": "academic-verify \u2014 Trace Claims to Source Data",
+    "updated_at": "2026-06-17T12:14:58.261629Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/meeting-ingestion/skill",
+    "type": "skill",
+    "title": "Meeting Ingestion Skill",
+    "updated_at": "2026-06-17T12:14:58.265662Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/enrich/skill",
+    "type": "skill",
+    "title": "Enrich Skill",
+    "updated_at": "2026-06-17T12:14:58.264724Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/webhook-transforms/skill",
+    "type": "skill",
+    "title": "Webhook Transforms",
+    "updated_at": "2026-06-17T12:14:58.267749Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/concept-synthesis/skill",
+    "type": "skill",
+    "title": "concept-synthesis \u2014 From Raw Stubs to Intellectual Map",
+    "updated_at": "2026-06-17T12:14:58.263090Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/daily-task-manager/skill",
+    "type": "skill",
+    "title": "Daily Task Manager",
+    "updated_at": "2026-06-17T12:14:58.264314Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/query/skill",
+    "type": "skill",
+    "title": "Query Skill",
+    "updated_at": "2026-06-17T12:14:58.266077Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/soul-audit/skill",
+    "type": "skill",
+    "title": "Soul Audit \u2014 Agent Identity Builder",
+    "updated_at": "2026-06-17T12:14:58.267151Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/perplexity-research/skill",
+    "type": "skill",
+    "title": "perplexity-research \u2014 Brain-Augmented Web Research",
+    "updated_at": "2026-06-17T12:14:58.265914Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/strategic-reading/skill",
+    "type": "skill",
+    "title": "strategic-reading \u2014 Applied Analysis from Source Texts",
+    "updated_at": "2026-06-17T12:14:58.267270Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/skillpack-harvest/skill",
+    "type": "skill",
+    "title": "skillpack-harvest \u2014 Editorial workflow for lifting host skills into gbrain",
+    "updated_at": "2026-06-17T12:14:58.266980Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/reports/skill",
+    "type": "skill",
+    "title": "Reports Skill",
+    "updated_at": "2026-06-17T12:14:58.266347Z",
+    "tags": []
+  },
+  {
+    "slug": "skills/media-ingest/skill",
+    "type": "skill",
+    "title": "Media Ingest Skill",
+    "updated_at": "2026-06-17T12:14:58.265496Z",
+    "tags": []
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-5",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257211Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-05-vrm_x_agentic_dashboard_-_security_review",
+    "type": "meeting",
+    "title": "VRM x Agentic Dashboard - Security Review",
+    "updated_at": "2026-06-17T12:14:58.253936Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-13-vrm____rspl_cluster_migration____edge_review",
+    "type": "meeting",
+    "title": "VRM <> RSPL Cluster migration <> Edge review",
+    "updated_at": "2026-06-17T12:14:58.254270Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-12",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256403Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-1",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256176Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-growth_ideas_discussion",
+    "type": "meeting",
+    "title": "Growth Ideas Discussion",
+    "updated_at": "2026-06-17T12:14:58.255448Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-16",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256691Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-03-16-growth_pod_weekly_check-in",
+    "type": "meeting",
+    "title": "Growth POD weekly check-in",
+    "updated_at": "2026-06-17T12:14:58.252602Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-17",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256747Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-ssa_syncup_block",
+    "type": "meeting",
+    "title": "SSA Syncup block",
+    "updated_at": "2026-06-17T12:14:58.255937Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-4",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257131Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-website_sales_agent_kt",
+    "type": "meeting",
+    "title": "Website Sales Agent KT",
+    "updated_at": "2026-06-17T12:14:58.257984Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-29-meeting_started_2026___05___29_14_50_ist_meeting",
+    "type": "meeting",
+    "title": "Meeting started 2026 / 05 / 29 14:50 IST Meeting",
+    "updated_at": "2026-06-17T12:14:58.254987Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-26-vrm_weekly_sync",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.254738Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscription_issues_-_connect",
+    "type": "meeting",
+    "title": "Subscription issues - connect",
+    "updated_at": "2026-06-17T12:14:58.256086Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-13",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256485Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-28-vrm_-_auth___security_considerations.",
+    "type": "meeting",
+    "title": "VRM - Auth & Security Considerations.",
+    "updated_at": "2026-06-17T12:14:58.253646Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-23-vrm_-_sagar___vrajesh",
+    "type": "meeting",
+    "title": "VRM - Sagar / Vrajesh",
+    "updated_at": "2026-06-17T12:14:58.252976Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-18",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256804Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-gamification_kt_session_1",
+    "type": "meeting",
+    "title": "Gamification KT Session 1",
+    "updated_at": "2026-06-17T12:14:58.255301Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-growth_ideas_discussion-1",
+    "type": "meeting",
+    "title": "Growth Ideas Discussion",
+    "updated_at": "2026-06-17T12:14:58.255376Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-24-bitscale_nda___saas_order_form",
+    "type": "meeting",
+    "title": "Bitscale NDA & SAAS Order Form",
+    "updated_at": "2026-06-17T12:14:58.253555Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-02-nirvisha___vrajesh_meeting",
+    "type": "meeting",
+    "title": "Nirvisha / Vrajesh Meeting",
+    "updated_at": "2026-06-17T12:14:58.255053Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-23-vrm_auth_flow_discussion",
+    "type": "meeting",
+    "title": "VRM Auth Flow Discussion",
+    "updated_at": "2026-06-17T12:14:58.253227Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-shubham_x_nikhil_x_vrajesh",
+    "type": "meeting",
+    "title": "Shubham x nikhil x vrajesh",
+    "updated_at": "2026-06-17T12:14:58.255596Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-vrm___ai_calling_-_kt__session_1",
+    "type": "meeting",
+    "title": "VRM / AI Calling - KT (Session 1)",
+    "updated_at": "2026-06-17T12:14:58.257653Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/readme",
+    "type": "meeting",
+    "title": "meetings/",
+    "updated_at": "2026-06-17T12:14:58.258271Z",
+    "tags": [
+      "meeting",
+      "<topic-tag>"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-9",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257474Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-12-vrm_weekly_sync",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.254164Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-vrm_clm_-_anurag___vrajesh",
+    "type": "meeting",
+    "title": "VRM CLM - Anurag / Vrajesh",
+    "updated_at": "2026-06-17T12:14:58.257783Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-28-vrm_weekly_sync",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.253827Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-19-vrm_weekly_sync-1",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.254533Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-ankit___vrajesh_meeting",
+    "type": "meeting",
+    "title": "Ankit / Vrajesh Meeting",
+    "updated_at": "2026-06-17T12:14:58.255135Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-25-vrm_memory_layer_-_anurag___vrajesh",
+    "type": "meeting",
+    "title": "VRM Memory Layer - Anurag / Vrajesh",
+    "updated_at": "2026-06-17T12:14:58.254672Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-8",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257407Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-3",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257065Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-28-vrm_weekly_sync-1",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.253741Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-14",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256548Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-7",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257327Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-12-imp__vrm____devops",
+    "type": "meeting",
+    "title": "[IMP] VRM <> DevOps",
+    "updated_at": "2026-06-17T12:14:58.254058Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-10",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256255Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout",
+    "type": "meeting",
+    "title": "VRM x Agentic Dashboard - Architecture & Use-Case Breakout",
+    "updated_at": "2026-06-17T12:14:58.254919Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-sprint_planning_-_growth",
+    "type": "meeting",
+    "title": "Sprint Planning - Growth",
+    "updated_at": "2026-06-17T12:14:58.255855Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-6",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257271Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-kailash___vrajesh_meeting",
+    "type": "meeting",
+    "title": "Kailash / Vrajesh Meeting",
+    "updated_at": "2026-06-17T12:14:58.255514Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-23-vrm_weekly_sync",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.253454Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-11",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256325Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-2",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256975Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-14-vrm_weekly_sync",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.254443Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-05-19-vrm_weekly_sync",
+    "type": "meeting",
+    "title": "VRM Weekly Sync",
+    "updated_at": "2026-06-17T12:14:58.254598Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-04-01-imp__ownership_allignment___path_forward",
+    "type": "meeting",
+    "title": "[IMP] Ownership Allignment & Path Forward",
+    "updated_at": "2026-06-17T12:14:58.252854Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-16-new_merchant_credits_offer_testing",
+    "type": "meeting",
+    "title": "New Merchant Credits Offer Testing",
+    "updated_at": "2026-06-17T12:14:58.258103Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync-15",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.256611Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  },
+  {
+    "slug": "meetings/2026-06-08-subscriptions_daily_sync",
+    "type": "meeting",
+    "title": "Subscriptions Daily Sync",
+    "updated_at": "2026-06-17T12:14:58.257544Z",
+    "tags": [
+      "meeting",
+      "gemini-recording"
+    ]
+  }
 ]

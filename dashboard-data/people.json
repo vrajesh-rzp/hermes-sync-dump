@@ -1,40 +1,268 @@
 [
-  {"slug": "people/anurag-rastogi", "name": "Anurag Rastogi", "summary": "Senior Engineer, VRM Backend & AI Systems"},
-  {"slug": "people/anushri-singhai", "name": "Anushri Singhai", "summary": "Product Manager, SME Payments"},
-  {"slug": "people/apoorv-chaturvedi", "name": "Apoorv Chaturvedi", "summary": "Engineering Manager, Platform Infrastructure"},
-  {"slug": "people/apuarv-sethi", "name": "Apuarv Sethi", "summary": "Senior Engineer, Onboarding Systems"},
-  {"slug": "people/ashish-tewari", "name": "Ashish Chandra Tewari", "summary": "Staff Engineer, Backend Services"},
-  {"slug": "people/bhoomika-barua", "name": "Bhoomika Barua", "summary": "Product Designer, SME Payments"},
-  {"slug": "people/dhanam-parekh", "name": "Dhanam Parekh", "summary": "Senior Engineer, Growth Engineering"},
-  {"slug": "people/dinesh-k-r-navada", "name": "Dinesh K R Navada", "summary": "Senior Engineer, Platform Services"},
-  {"slug": "people/dushyant-panda", "name": "Dushyant Panda", "summary": "Engineering Manager, Growth Pod"},
-  {"slug": "people/elancheziyan-a-s", "name": "Elancheziyan A S", "summary": "Senior Engineer, Subscriptions"},
-  {"slug": "people/harshil-mathur", "name": "Harshil Mathur", "summary": "CEO & Co-founder, Razorpay"},
-  {"slug": "people/kailash-atal", "name": "Kailash Atal", "summary": "Engineering Manager, VRM & Onboarding Infrastructure"},
-  {"slug": "people/ketan-dilip-suryawanshi", "name": "Ketan Dilip Suryawanshi", "summary": "Senior Engineer, DevOps & Infrastructure"},
-  {"slug": "people/khilan-haria", "name": "Khilan Haria", "summary": "Director of Engineering, SME Payments"},
-  {"slug": "people/kuriseti-perumalla-sathwik", "name": "Kuriseti Perumalla Sathwik", "summary": "Engineer, VRM Backend"},
-  {"slug": "people/miran-hamid", "name": "Miran Hamid", "summary": "Product Manager, Onboarding"},
-  {"slug": "people/neeraj-sati", "name": "Neeraj Sati", "summary": "Senior Engineer, AI & ML Systems"},
-  {"slug": "people/nikhil-khadilkar", "name": "Nikhil Uday Khadilkar", "summary": "Senior Product Manager, Growth & Subscriptions"},
-  {"slug": "people/nikunj-kaushik", "name": "Nikunj Kaushik", "summary": "Engineering Manager, Payments Infrastructure"},
-  {"slug": "people/parul-singh", "name": "Parul Singh", "summary": "Product Manager, Merchant Experience"},
-  {"slug": "people/prabu-ram", "name": "Prabu Ram", "summary": "Staff Engineer, Platform Architecture"},
-  {"slug": "people/prashant-chaudhary", "name": "Prashant Chaudhary", "summary": "Senior Engineer, Security & Auth Systems"},
-  {"slug": "people/raktim-talukdar", "name": "Raktim Talukdar", "summary": "Senior Engineer, Data Engineering"},
-  {"slug": "people/ramya-subramaniam", "name": "Ramya Subramaniam", "summary": "Product Manager, Compliance & Risk"},
-  {"slug": "people/rishav-loomba", "name": "Rishav Loomba", "summary": "Senior Engineer, VRM & AI Calling"},
-  {"slug": "people/sagar-agarwal", "name": "Sagar Agarwal", "summary": "Sr Director PM, Growth & SME Payments"},
-  {"slug": "people/satyam-mishra", "name": "Satyam Mishra", "summary": "Engineer, Frontend & Dashboard"},
-  {"slug": "people/shashank-kumar", "name": "Shashank Kumar", "summary": "Senior Engineer, Onboarding Backend"},
-  {"slug": "people/shashidhar-v-c", "name": "Shashidhar V C", "summary": "Engineering Manager, Payments Core"},
-  {"slug": "people/sheetal-monica-murthy", "name": "Sheetal Monica Murthy", "summary": "Product Manager, Merchant Lifecycle"},
-  {"slug": "people/shubham-singhal", "name": "Shubham Singhal", "summary": "Senior Product Manager, Growth & Gamification"},
-  {"slug": "people/swati-pandey", "name": "Swati Pandey", "summary": "Product Manager, Subscriptions"},
-  {"slug": "people/tejas-gowda", "name": "Tejas Gowda", "summary": "VP Product, SME Payments Group"},
-  {"slug": "people/tushar-saxena", "name": "Tushar Saxena", "summary": "Senior Engineer, Infrastructure & DevOps"},
-  {"slug": "people/varghese-mathew", "name": "Varghese Mathew", "summary": "Staff Engineer, Security Architecture"},
-  {"slug": "people/vinay-chopra", "name": "Vinay Chopra", "summary": "Senior Engineer, Backend Services"},
-  {"slug": "people/vrajesh-iyengar", "name": "Vrajesh Jaidev Iyengar", "summary": "Product Manager, VRM (Virtual Relationship Manager)"},
-  {"slug": "people/yameni-dhankar", "name": "Yameni Dhankar", "summary": "Product Manager, Merchant Engagement"}
+  {
+    "slug": "people/ketan-dilip-suryawanshi",
+    "name": "Ketan Dilip Suryawanshi",
+    "role": "",
+    "summary": "title: Ketan Dilip Suryawanshi",
+    "updated_at": "2026-06-17T12:14:58.259295Z"
+  },
+  {
+    "slug": "people/khilan-haria",
+    "name": "Khilan Haria",
+    "role": "",
+    "summary": "title: Khilan Haria",
+    "updated_at": "2026-06-17T12:14:58.259371Z"
+  },
+  {
+    "slug": "people/neeraj-sati",
+    "name": "Neeraj Sati",
+    "role": "",
+    "summary": "title: Neeraj Sati",
+    "updated_at": "2026-06-17T12:14:58.259557Z"
+  },
+  {
+    "slug": "people/shubham-singhal",
+    "name": "Shubham Singhal",
+    "role": "",
+    "summary": "title: Shubham Singhal",
+    "updated_at": "2026-06-17T12:14:58.260491Z"
+  },
+  {
+    "slug": "people/prabu-ram",
+    "name": "Prabu Ram",
+    "role": "",
+    "summary": "title: Prabu Ram",
+    "updated_at": "2026-06-17T12:14:58.259856Z"
+  },
+  {
+    "slug": "people/apuarv-sethi",
+    "name": "Apuarv Sethi",
+    "role": "",
+    "summary": "title: Apuarv Sethi",
+    "updated_at": "2026-06-17T12:14:58.258736Z"
+  },
+  {
+    "slug": "people/dhanam-parekh",
+    "name": "Dhanam Parekh",
+    "role": "",
+    "summary": "title: Dhanam Parekh",
+    "updated_at": "2026-06-17T12:14:58.258911Z"
+  },
+  {
+    "slug": "people/sheetal-monica-murthy",
+    "name": "Sheetal Monica Murthy",
+    "role": "CS Ops Manager [Source: Gmail, 2026-05-20]",
+    "summary": "title: Sheetal Monica Murthy",
+    "updated_at": "2026-06-17T12:14:58.260430Z"
+  },
+  {
+    "slug": "people/dinesh-k-r-navada",
+    "name": "Dinesh K R Navada",
+    "role": "",
+    "summary": "title: Dinesh K R Navada",
+    "updated_at": "2026-06-17T12:14:58.258970Z"
+  },
+  {
+    "slug": "people/rishav-loomba",
+    "name": "Rishav Loomba",
+    "role": "",
+    "summary": "title: Rishav Loomba",
+    "updated_at": "2026-06-17T12:14:58.260107Z"
+  },
+  {
+    "slug": "people/varghese-mathew",
+    "name": "Varghese Mathew",
+    "role": "Director, Product Design [Source: Gmail, 2026-05-20]",
+    "summary": "title: Varghese Mathew",
+    "updated_at": "2026-06-17T12:14:58.260741Z"
+  },
+  {
+    "slug": "people/nikunj-kaushik",
+    "name": "Nikunj Kaushik",
+    "role": "Lead Analytics [Source: Gmail, 2026-05-20]",
+    "summary": "title: Nikunj Kaushik",
+    "updated_at": "2026-06-17T12:14:58.259709Z"
+  },
+  {
+    "slug": "people/dushyant-panda",
+    "name": "Dushyant Panda",
+    "role": "",
+    "summary": "title: Dushyant Panda",
+    "updated_at": "2026-06-17T12:14:58.259031Z"
+  },
+  {
+    "slug": "people/vinay-chopra",
+    "name": "Vinay Chopra",
+    "role": "",
+    "summary": "title: Vinay Chopra",
+    "updated_at": "2026-06-17T12:14:58.260801Z"
+  },
+  {
+    "slug": "people/raktim-talukdar",
+    "name": "Raktim Talukdar",
+    "role": "Associate Director (AD), Growth Marketing [Source: Gmail, 2026-05-20]",
+    "summary": "title: Raktim Talukdar",
+    "updated_at": "2026-06-17T12:14:58.259974Z"
+  },
+  {
+    "slug": "people/anushri-singhai",
+    "name": "Anushri Singhai",
+    "role": "",
+    "summary": "title: Anushri Singhai",
+    "updated_at": "2026-06-17T12:14:58.258617Z"
+  },
+  {
+    "slug": "people/shashidhar-v-c",
+    "name": "Shashidhar V C",
+    "role": "",
+    "summary": "title: Shashidhar V C",
+    "updated_at": "2026-06-17T12:14:58.260370Z"
+  },
+  {
+    "slug": "people/tushar-saxena",
+    "name": "Tushar Saxena",
+    "role": "",
+    "summary": "title: Tushar Saxena",
+    "updated_at": "2026-06-17T12:14:58.260680Z"
+  },
+  {
+    "slug": "people/satyam-mishra",
+    "name": "Satyam Mishra",
+    "role": "",
+    "summary": "title: Satyam Mishra",
+    "updated_at": "2026-06-17T12:14:58.260255Z"
+  },
+  {
+    "slug": "people/bhoomika-barua",
+    "name": "Bhoomika Barua",
+    "role": "",
+    "summary": "title: Bhoomika Barua",
+    "updated_at": "2026-06-17T12:14:58.258855Z"
+  },
+  {
+    "slug": "people/prashant-chaudhary",
+    "name": "Prashant Chaudhary",
+    "role": "",
+    "summary": "title: Prashant Chaudhary",
+    "updated_at": "2026-06-17T12:14:58.259918Z"
+  },
+  {
+    "slug": "people/sagar-agarwal",
+    "name": "Sagar Agarwal",
+    "role": "",
+    "summary": "title: Sagar Agarwal",
+    "updated_at": "2026-06-17T12:14:58.260189Z"
+  },
+  {
+    "slug": "people/miran-hamid",
+    "name": "Miran Hamid",
+    "role": "",
+    "summary": "title: Miran Hamid",
+    "updated_at": "2026-06-17T12:14:58.259493Z"
+  },
+  {
+    "slug": "people/vrajesh-iyengar",
+    "name": "Vrajesh Iyengar",
+    "role": "",
+    "summary": "title: Vrajesh Jaidev Iyengar",
+    "updated_at": "2026-06-17T12:14:58.260860Z"
+  },
+  {
+    "slug": "people/anurag-rastogi",
+    "name": "Anurag Rastogi",
+    "role": "AI Builder [Source: Gmail, 2026-05-20]",
+    "summary": "title: Anurag Rastogi",
+    "updated_at": "2026-06-17T12:14:58.258556Z"
+  },
+  {
+    "slug": "people/nikhil-khadilkar",
+    "name": "Nikhil Uday Khadilkar",
+    "role": "",
+    "summary": "title: Nikhil Uday Khadilkar",
+    "updated_at": "2026-06-17T12:14:58.259629Z"
+  },
+  {
+    "slug": "people/kailash-atal",
+    "name": "Kailash Atal",
+    "role": "",
+    "summary": "title: Kailash Atal",
+    "updated_at": "2026-06-17T12:14:58.259222Z"
+  },
+  {
+    "slug": "people/ashish-tewari",
+    "name": "Ashish Chandra Tewari",
+    "role": "",
+    "summary": "title: Ashish Chandra Tewari",
+    "updated_at": "2026-06-17T12:14:58.258795Z"
+  },
+  {
+    "slug": "people/tejas-gowda",
+    "name": "Tejas Gowda",
+    "role": "",
+    "summary": "title: Tejas Gowda",
+    "updated_at": "2026-06-17T12:14:58.260621Z"
+  },
+  {
+    "slug": "people/ramya-subramaniam",
+    "name": "Ramya Subramaniam",
+    "role": "Manager, Growth Marketing [Source: Gmail, 2026-05-20]",
+    "summary": "title: Ramya Subramaniam",
+    "updated_at": "2026-06-17T12:14:58.260036Z"
+  },
+  {
+    "slug": "people/apoorv-chaturvedi",
+    "name": "Apoorv Chaturvedi",
+    "role": "Manager, Growth Marketing [Source: Gmail, 2026-05-20]",
+    "summary": "title: Apoorv Chaturvedi",
+    "updated_at": "2026-06-17T12:14:58.258677Z"
+  },
+  {
+    "slug": "people/parul-singh",
+    "name": "Parul Singh",
+    "role": "Manager, Growth Marketing [Source: Gmail, 2026-05-20]",
+    "summary": "title: Parul Singh",
+    "updated_at": "2026-06-17T12:14:58.259780Z"
+  },
+  {
+    "slug": "people/shashank-kumar",
+    "name": "Shashank Kumar",
+    "role": "",
+    "summary": "title: Shashank Kumar",
+    "updated_at": "2026-06-17T12:14:58.260316Z"
+  },
+  {
+    "slug": "people/yameni-dhankar",
+    "name": "Yameni Dhankar",
+    "role": "",
+    "summary": "title: Yameni Dhankar",
+    "updated_at": "2026-06-17T12:14:58.260921Z"
+  },
+  {
+    "slug": "people/swati-pandey",
+    "name": "Swati Pandey",
+    "role": "",
+    "summary": "title: Swati Pandey",
+    "updated_at": "2026-06-17T12:14:58.260550Z"
+  },
+  {
+    "slug": "people/elancheziyan-a-s",
+    "name": "Elancheziyan A S",
+    "role": "",
+    "summary": "title: Elancheziyan A S",
+    "updated_at": "2026-06-17T12:14:58.259086Z"
+  },
+  {
+    "slug": "people/harshil-mathur",
+    "name": "Harshil Mathur",
+    "role": "",
+    "summary": "title: Harshil Mathur",
+    "updated_at": "2026-06-17T12:14:58.259148Z"
+  },
+  {
+    "slug": "people/kuriseti-perumalla-sathwik",
+    "name": "Kuriseti Perumalla Sathwik",
+    "role": "",
+    "summary": "title: Kuriseti Perumalla Sathwik",
+    "updated_at": "2026-06-17T12:14:58.259430Z"
+  }
 ]
