@@ -12,7 +12,7 @@ interface UsersData {
   whitelist: WhitelistUser[]
 }
 
-const REPO_OWNER = 'vrajesh-iyengar'
+const REPO_OWNER = 'vrajesh-rzp'
 const REPO_NAME = 'hermes-sync-dump'
 const FILE_PATH = 'dashboard-data/users.json'
 
