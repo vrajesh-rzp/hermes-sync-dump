@@ -1,42 +1,1100 @@
 {
   "nodes": [
-    {"id": "people/kailash-atal", "label": "Kailash Atal", "type": "person", "group": 1},
-    {"id": "people/sagar-agarwal", "label": "Sagar Agarwal", "type": "person", "group": 1},
-    {"id": "people/rishav-loomba", "label": "Rishav Loomba", "type": "person", "group": 1},
-    {"id": "people/vrajesh-iyengar", "label": "Vrajesh Jaidev Iyengar", "type": "person", "group": 1},
-    {"id": "people/tejas-gowda", "label": "Tejas Gowda", "type": "person", "group": 1},
-    {"id": "people/khilan-haria", "label": "Khilan Haria", "type": "person", "group": 1},
-    {"id": "people/harshil-mathur", "label": "Harshil Mathur", "type": "person", "group": 1},
-    {"id": "projects/onboarding-infrastructure", "label": "Onboarding Infrastructure", "type": "project", "group": 2},
-    {"id": "projects/conversational-onboarding", "label": "Conversational Onboarding", "type": "project", "group": 2},
-    {"id": "projects/vrm", "label": "VRM", "type": "project", "group": 2},
-    {"id": "concepts/vrm-signal-detection", "label": "VRM Signal Detection", "type": "concept", "group": 3},
-    {"id": "concepts/merchant-lifecycle", "label": "Merchant Lifecycle", "type": "concept", "group": 3},
-    {"id": "okrs/fy26-q2", "label": "FY26 Q2 OKRs", "type": "okr", "group": 4},
-    {"id": "decisions/aws-cluster-migration", "label": "AWS Cluster Migration", "type": "decision", "group": 5}
+    {
+      "id": "readme",
+      "label": "Readme",
+      "type": "note",
+      "group": 8
+    },
+    {
+      "id": "okrs/fy26-q1",
+      "label": "Fy26 Q1",
+      "type": "okr",
+      "group": 4
+    },
+    {
+      "id": "okrs/fy26-q2",
+      "label": "Fy26 Q2",
+      "type": "okr",
+      "group": 4
+    },
+    {
+      "id": "projects/onboarding-infrastructure",
+      "label": "Onboarding Infrastructure",
+      "type": "project",
+      "group": 3
+    },
+    {
+      "id": "projects/conversational-onboarding",
+      "label": "Conversational Onboarding",
+      "type": "project",
+      "group": 3
+    },
+    {
+      "id": "projects/vrm",
+      "label": "Vrm",
+      "type": "project",
+      "group": 3
+    },
+    {
+      "id": "code/vrm-agentic-dashboard",
+      "label": "Vrm Agentic Dashboard",
+      "type": "code",
+      "group": 6
+    },
+    {
+      "id": "decisions/readme",
+      "label": "decisions/",
+      "type": "decision",
+      "group": 5
+    },
+    {
+      "id": "decisions/vrm-scrapped",
+      "label": "VRM Project Scrapped by Leadership",
+      "type": "decision",
+      "group": 5
+    },
+    {
+      "id": "decisions/aws-cluster-migration",
+      "label": "Aws Cluster Migration",
+      "type": "decision",
+      "group": 5
+    },
+    {
+      "id": "people/ketan-dilip-suryawanshi",
+      "label": "Ketan Dilip Suryawanshi",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/khilan-haria",
+      "label": "Khilan Haria",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/neeraj-sati",
+      "label": "Neeraj Sati",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/shubham-singhal",
+      "label": "Shubham Singhal",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/prabu-ram",
+      "label": "Prabu Ram",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/apuarv-sethi",
+      "label": "Apuarv Sethi",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/dhanam-parekh",
+      "label": "Dhanam Parekh",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/sheetal-monica-murthy",
+      "label": "Sheetal Monica Murthy",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/dinesh-k-r-navada",
+      "label": "Dinesh K R Navada",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/rishav-loomba",
+      "label": "Rishav Loomba",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/varghese-mathew",
+      "label": "Varghese Mathew",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/nikunj-kaushik",
+      "label": "Nikunj Kaushik",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/dushyant-panda",
+      "label": "Dushyant Panda",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/vinay-chopra",
+      "label": "Vinay Chopra",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/raktim-talukdar",
+      "label": "Raktim Talukdar",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/anushri-singhai",
+      "label": "Anushri Singhai",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/shashidhar-v-c",
+      "label": "Shashidhar V C",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/tushar-saxena",
+      "label": "Tushar Saxena",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/satyam-mishra",
+      "label": "Satyam Mishra",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/bhoomika-barua",
+      "label": "Bhoomika Barua",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/prashant-chaudhary",
+      "label": "Prashant Chaudhary",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/sagar-agarwal",
+      "label": "Sagar Agarwal",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/miran-hamid",
+      "label": "Miran Hamid",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/vrajesh-iyengar",
+      "label": "Vrajesh Iyengar",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/anurag-rastogi",
+      "label": "Anurag Rastogi",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/nikhil-khadilkar",
+      "label": "Nikhil Uday Khadilkar",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/kailash-atal",
+      "label": "Kailash Atal",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/ashish-tewari",
+      "label": "Ashish Chandra Tewari",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/tejas-gowda",
+      "label": "Tejas Gowda",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/ramya-subramaniam",
+      "label": "Ramya Subramaniam",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/apoorv-chaturvedi",
+      "label": "Apoorv Chaturvedi",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/parul-singh",
+      "label": "Parul Singh",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/shashank-kumar",
+      "label": "Shashank Kumar",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/yameni-dhankar",
+      "label": "Yameni Dhankar",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/swati-pandey",
+      "label": "Swati Pandey",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/elancheziyan-a-s",
+      "label": "Elancheziyan A S",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/harshil-mathur",
+      "label": "Harshil Mathur",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "people/kuriseti-perumalla-sathwik",
+      "label": "Kuriseti Perumalla Sathwik",
+      "type": "person",
+      "group": 0
+    },
+    {
+      "id": "concepts/vrm-signal-detection",
+      "label": "Vrm Signal Detection",
+      "type": "concept",
+      "group": 2
+    },
+    {
+      "id": "concepts/merchant-lifecycle",
+      "label": "Merchant Lifecycle",
+      "type": "concept",
+      "group": 2
+    },
+    {
+      "id": "skills/_output-rules",
+      "label": "Output Rules",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/_agent_readme",
+      "label": "Agent onboarding \u2014 what to do with the files in this directory",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/_brain-filing-rules",
+      "label": "Brain Filing Rules -- MANDATORY for all skills that write to the brain",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/voice-note-ingest/skill",
+      "label": "voice-note-ingest \u2014 Exact-Phrasing Voice Capture",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/article-enrichment/skill",
+      "label": "article-enrichment \u2014 From Raw Dumps to Useful Brain Pages",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/book-mirror/skill",
+      "label": "book-mirror \u2014 Personalized Chapter-by-Chapter Book Analysis",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/minion-orchestrator/skill",
+      "label": "Minion Orchestrator",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/daily-task-prep/skill",
+      "label": "Daily Task Prep",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/citation-fixer/skill",
+      "label": "Citation Fixer Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/cron-scheduler/skill",
+      "label": "Cron Scheduler",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/archive-crawler/skill",
+      "label": "archive-crawler \u2014 The Universal Archivist",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/ingest/skill",
+      "label": "Ingest Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/repo-architecture/skill",
+      "label": "Repo Architecture \u2014 Filing Rules",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/brain-ops/skill",
+      "label": "Brain Operations \u2014 The Ambient Context Layer",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/skillpack-check/skill",
+      "label": "Skillpack Check",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/signal-detector/skill",
+      "label": "Signal Detector \u2014 Ambient Brain Capture",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/skillify/skill",
+      "label": "Skillify \u2014 The Meta Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/maintain/skill",
+      "label": "Maintain Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/testing/skill",
+      "label": "Testing Skill \u2014 Validation + Daily Health & Regression Intelligence",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/skill-creator/skill",
+      "label": "Skill Creator",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/functional-area-resolver/skill",
+      "label": "Functional-Area Resolver \u2014 Pattern for Compressing Routing Tables",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/briefing/skill",
+      "label": "Briefing Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/data-research/skill",
+      "label": "Data Research",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/idea-ingest/skill",
+      "label": "Idea Ingest Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/cross-modal-review/skill",
+      "label": "Cross-Modal Review",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/search-modes",
+      "label": "Convention: Search Modes (v0.32.3)",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/cron-via-minions",
+      "label": "Cron via Minions Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/subagent-routing",
+      "label": "Subagent Routing Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/calibration",
+      "label": "Convention: calibration loop (v0.36.1.0)",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/quality",
+      "label": "Quality Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/test-before-bulk",
+      "label": "Test Before Bulk Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/salience-and-recency",
+      "label": "Salience + Recency on `gbrain query` (v0.29.1)",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/model-routing",
+      "label": "Model Routing Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/brain-routing",
+      "label": "Brain Routing Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/conventions/brain-first",
+      "label": "Brain-First Lookup Convention",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/brain-pdf/skill",
+      "label": "brain-pdf \u2014 Render a Brain Page to Publication-Quality PDF",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/academic-verify/skill",
+      "label": "academic-verify \u2014 Trace Claims to Source Data",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/meeting-ingestion/skill",
+      "label": "Meeting Ingestion Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/enrich/skill",
+      "label": "Enrich Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/webhook-transforms/skill",
+      "label": "Webhook Transforms",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/concept-synthesis/skill",
+      "label": "concept-synthesis \u2014 From Raw Stubs to Intellectual Map",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/daily-task-manager/skill",
+      "label": "Daily Task Manager",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/query/skill",
+      "label": "Query Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/soul-audit/skill",
+      "label": "Soul Audit \u2014 Agent Identity Builder",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/perplexity-research/skill",
+      "label": "perplexity-research \u2014 Brain-Augmented Web Research",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/strategic-reading/skill",
+      "label": "strategic-reading \u2014 Applied Analysis from Source Texts",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/skillpack-harvest/skill",
+      "label": "skillpack-harvest \u2014 Editorial workflow for lifting host skills into gbrain",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/reports/skill",
+      "label": "Reports Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "skills/media-ingest/skill",
+      "label": "Media Ingest Skill",
+      "type": "skill",
+      "group": 7
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-5",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-05-vrm_x_agentic_dashboard_-_security_review",
+      "label": "VRM x Agentic Dashboard - Security Review",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-13-vrm____rspl_cluster_migration____edge_review",
+      "label": "VRM <> RSPL Cluster migration <> Edge review",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-12",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-1",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-growth_ideas_discussion",
+      "label": "Growth Ideas Discussion",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-16",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-03-16-growth_pod_weekly_check-in",
+      "label": "Growth POD weekly check-in",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-17",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-ssa_syncup_block",
+      "label": "SSA Syncup block",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-4",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-website_sales_agent_kt",
+      "label": "Website Sales Agent KT",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-29-meeting_started_2026___05___29_14_50_ist_meeting",
+      "label": "Meeting started 2026 / 05 / 29 14:50 IST Meeting",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-26-vrm_weekly_sync",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscription_issues_-_connect",
+      "label": "Subscription issues - connect",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-13",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-28-vrm_-_auth___security_considerations.",
+      "label": "VRM - Auth & Security Considerations.",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-23-vrm_-_sagar___vrajesh",
+      "label": "VRM - Sagar / Vrajesh",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-18",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-gamification_kt_session_1",
+      "label": "Gamification KT Session 1",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-growth_ideas_discussion-1",
+      "label": "Growth Ideas Discussion",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-24-bitscale_nda___saas_order_form",
+      "label": "Bitscale NDA & SAAS Order Form",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-02-nirvisha___vrajesh_meeting",
+      "label": "Nirvisha / Vrajesh Meeting",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-23-vrm_auth_flow_discussion",
+      "label": "VRM Auth Flow Discussion",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-shubham_x_nikhil_x_vrajesh",
+      "label": "Shubham x nikhil x vrajesh",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-vrm___ai_calling_-_kt__session_1",
+      "label": "VRM / AI Calling - KT (Session 1)",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/readme",
+      "label": "meetings/",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-9",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-12-vrm_weekly_sync",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-vrm_clm_-_anurag___vrajesh",
+      "label": "VRM CLM - Anurag / Vrajesh",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-28-vrm_weekly_sync",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-19-vrm_weekly_sync-1",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-ankit___vrajesh_meeting",
+      "label": "Ankit / Vrajesh Meeting",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-25-vrm_memory_layer_-_anurag___vrajesh",
+      "label": "VRM Memory Layer - Anurag / Vrajesh",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-8",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-3",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-28-vrm_weekly_sync-1",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-14",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-7",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-12-imp__vrm____devops",
+      "label": "[IMP] VRM <> DevOps",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-10",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout",
+      "label": "VRM x Agentic Dashboard - Architecture & Use-Case Breakout",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-sprint_planning_-_growth",
+      "label": "Sprint Planning - Growth",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-6",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-kailash___vrajesh_meeting",
+      "label": "Kailash / Vrajesh Meeting",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-23-vrm_weekly_sync",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-11",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-2",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-14-vrm_weekly_sync",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-05-19-vrm_weekly_sync",
+      "label": "VRM Weekly Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-04-01-imp__ownership_allignment___path_forward",
+      "label": "[IMP] Ownership Allignment & Path Forward",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-16-new_merchant_credits_offer_testing",
+      "label": "New Merchant Credits Offer Testing",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync-15",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    },
+    {
+      "id": "meetings/2026-06-08-subscriptions_daily_sync",
+      "label": "Subscriptions Daily Sync",
+      "type": "meeting",
+      "group": 1
+    }
   ],
   "links": [
-    {"source": "projects/vrm", "target": "people/kailash-atal"},
-    {"source": "projects/vrm", "target": "people/sagar-agarwal"},
-    {"source": "projects/vrm", "target": "people/rishav-loomba"},
-    {"source": "projects/vrm", "target": "people/vrajesh-iyengar"},
-    {"source": "projects/vrm", "target": "concepts/vrm-signal-detection"},
-    {"source": "projects/onboarding-infrastructure", "target": "people/kailash-atal"},
-    {"source": "projects/onboarding-infrastructure", "target": "okrs/fy26-q2"},
-    {"source": "projects/onboarding-infrastructure", "target": "people/rishav-loomba"},
-    {"source": "projects/conversational-onboarding", "target": "people/kailash-atal"},
-    {"source": "projects/conversational-onboarding", "target": "people/rishav-loomba"},
-    {"source": "projects/conversational-onboarding", "target": "concepts/merchant-lifecycle"},
-    {"source": "okrs/fy26-q2", "target": "people/kailash-atal"},
-    {"source": "okrs/fy26-q2", "target": "projects/onboarding-infrastructure"},
-    {"source": "decisions/aws-cluster-migration", "target": "people/kailash-atal"},
-    {"source": "decisions/aws-cluster-migration", "target": "people/tejas-gowda"},
-    {"source": "decisions/aws-cluster-migration", "target": "people/khilan-haria"},
-    {"source": "concepts/vrm-signal-detection", "target": "projects/vrm"},
-    {"source": "concepts/vrm-signal-detection", "target": "people/vrajesh-iyengar"},
-    {"source": "projects/vrm", "target": "people/harshil-mathur"},
-    {"source": "projects/vrm", "target": "people/sagar-agarwal"},
-    {"source": "projects/onboarding-infrastructure", "target": "projects/conversational-onboarding"},
-    {"source": "projects/conversational-onboarding", "target": "projects/onboarding-infrastructure"}
+    {
+      "source": "readme",
+      "target": "projects/onboarding-infrastructure"
+    },
+    {
+      "source": "readme",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "readme",
+      "target": "projects/conversational-onboarding"
+    },
+    {
+      "source": "readme",
+      "target": "people/vrajesh-iyengar"
+    },
+    {
+      "source": "readme",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "readme",
+      "target": "people/sagar-agarwal"
+    },
+    {
+      "source": "readme",
+      "target": "projects/onboarding-infrastructure"
+    },
+    {
+      "source": "readme",
+      "target": "projects/conversational-onboarding"
+    },
+    {
+      "source": "readme",
+      "target": "okrs/fy26-q2"
+    },
+    {
+      "source": "okrs/fy26-q1",
+      "target": "decisions/aws-cluster-migration"
+    },
+    {
+      "source": "okrs/fy26-q1",
+      "target": "projects/vrm"
+    },
+    {
+      "source": "okrs/fy26-q2",
+      "target": "projects/onboarding-infrastructure"
+    },
+    {
+      "source": "okrs/fy26-q2",
+      "target": "projects/conversational-onboarding"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "people/vrajesh-iyengar"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "projects/conversational-onboarding"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "okrs/fy26-q2"
+    },
+    {
+      "source": "projects/conversational-onboarding",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "projects/conversational-onboarding",
+      "target": "projects/onboarding-infrastructure"
+    },
+    {
+      "source": "projects/conversational-onboarding",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "decisions/aws-cluster-migration"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "people/sagar-agarwal"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "people/tejas-gowda"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "people/khilan-haria"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "people/harshil-mathur"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "people/rishav-loomba"
+    },
+    {
+      "source": "projects/vrm",
+      "target": "decisions/aws-cluster-migration"
+    },
+    {
+      "source": "code/vrm-agentic-dashboard",
+      "target": "people/rishav-loomba"
+    },
+    {
+      "source": "code/vrm-agentic-dashboard",
+      "target": "projects/vrm"
+    },
+    {
+      "source": "decisions/aws-cluster-migration",
+      "target": "people/rishav-loomba"
+    },
+    {
+      "source": "decisions/aws-cluster-migration",
+      "target": "people/rishav-loomba"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "people/sagar-agarwal"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "projects/onboarding-infrastructure"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "projects/conversational-onboarding"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "people/sagar-agarwal"
+    },
+    {
+      "source": "people/vrajesh-iyengar",
+      "target": "okrs/fy26-q2"
+    },
+    {
+      "source": "concepts/vrm-signal-detection",
+      "target": "projects/vrm"
+    },
+    {
+      "source": "concepts/vrm-signal-detection",
+      "target": "concepts/merchant-lifecycle"
+    },
+    {
+      "source": "concepts/merchant-lifecycle",
+      "target": "concepts/vrm-signal-detection"
+    },
+    {
+      "source": "concepts/merchant-lifecycle",
+      "target": "projects/vrm"
+    },
+    {
+      "source": "concepts/merchant-lifecycle",
+      "target": "concepts/vrm-signal-detection"
+    }
   ]
 }
