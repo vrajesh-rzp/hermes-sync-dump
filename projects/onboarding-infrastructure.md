@@ -1,52 +1,61 @@
 ---
-title: Onboarding Infrastructure (R1-Acqui)
 type: project
-tags: [project, onboarding, merchant-identity, kyc, r1-acqui]
+title: "Onboarding Infrastructure (R1-Acqui)"
+tags: [project, onboarding, infra, api-decomp, compliance]
 ---
 
-# Onboarding Infrastructure
+# Onboarding Infrastructure (R1-Acqui)
 
-**Charter:** R1-Acqui — Razorpay's merchant onboarding pipeline, identity verification, and KYC infrastructure.
-**PM:** [[people/vrajesh-iyengar]]
-**EM:** [[people/kailash-atal]]
-**Previous PM:** Yameni Dhankar
-**DevRev Sprint Board:** [vista-405](https://app.devrev.ai/razorpay/vistas/vista-405)
+> Platform team responsible for KYC infrastructure, API decomposition from monolith, merchant onboarding experience, and compliance tooling.
 
-**Key Slack channels:** #unified-onboarding-infra, #r1-merchant-identity, #api_decomposition, #sme-onboarding
+## Current Status (June 2026)
 
----
+- **Phase:** Active execution on FY27 OKRs
+- **PM:** [[people/vrajesh-iyengar]]
+- **EM:** [[people/kailash-atal]]
+- **Manager:** [[people/sagar-agarwal]]
 
-## Scope
+## FY27 Q1-Q2 Roadmap
 
-- Merchant identity verification and KYC flows
-- Document collection and validation (MSME, MOA, AOA, etc.)
-- API decomposition for onboarding services
-- SME onboarding optimization
-- On-call and incident management for onboarding infra
-- BVS (Business Verification Service) system reliability
-- Pre-release review and on-call roster management
+### API Decomposition (L0: Achieve 100%)
+| Service | Status | ETA |
+|---------|--------|-----|
+| NC (Network Centricity) | 100% ramped, 1 P0 pending | Jun 23 |
+| User Service | Delayed | Jul 20 |
+| Activation Service | Stalled (Elan reassigned) | TBD |
+| ASV Decomp | Completed | Done |
+| Org Service | Not started | Jun end (at risk) |
+| Workflow Service | Tech spec in progress | Jun end (at risk) |
+| Demerger | Scoping pending | Q2 |
 
----
+### Compliance (L0: 100% Compliance)
+- Address Verification: DataSutram live, Quick Commerce NDA pending
+- CKYC Upload: Deprioritized, PRD needed
+- Auto Re-KYC: Not started
 
-## Active Tracks (2026-06)
+### Funnel Improvement (L0)
+- Auto-Decision Rate: 81.5% (declining from 83.6%, target 90%)
+- 1-Click Onboarding: AOA/MOA/COI from IDFY done, MSME from Authbridge pending
+- PE to MTU: Remove liveness checks — pending
 
-- **MSME Number & MSME Doc go-live** — Completed ~22 June. PSE ticket surge post-go-live under monitoring.
-- **BVS System Failure Rate** — RCA in progress for increased failure rate on artefact_type: moa.
-- **reKYC timeout consistency** — Aligning reKYC timeout with MKYC across all document types.
-- **Merchant switching in X Dashboard** — Ongoing issue with merchants unable to switch successfully.
-- **Incident AI backlog** — Reduced from 32 to 3 open incident AIs in Sprint 2 Q1'26, currently 6 open.
-- **On-call roster** — Shared and managed via Google Sheets (Pre Release Review and On Call for Onboarding Infra and Agentic Onboarding).
+### Merchant Experience (L0: Reduce Disastrous Experiences)
+- PSE Tickets: 225/month (target <15) — spiked due to MSME go-live
+- PSE SLA Resolution: 93.2% (target 95%) — good trajectory
+- USL Page Load Latency: 3s (target 1s) — Owner: [[people/kailash-atal]]
 
----
+## Key People
 
-## Team Members
+| Role | Person |
+|------|--------|
+| PM | [[people/vrajesh-iyengar]] |
+| EM | [[people/kailash-atal]] |
+| Manager | [[people/sagar-agarwal]] |
+| Skip | [[people/tejas-gowda]] |
 
-- Pankaj Kumar, Padhiyar Satvik Lokeshkumar, Anurag Gupta, Ashutosh Kumar Yadav, Machunuru Subbaiah, Fahad Ali, Ravinuthala Sai Phanidhar, Mayank Mohan, Arshpreet Singh Wadehra, Manuj Vyas, Ridhima Aggarwal, Priyanshu Agarwal, Vishwesh Bajpai, Manuj Dixit, Diyala Bharathi
+## Open Blockers
+- [ ] Activation Service decomp stalled — Elan switched to SV Reduction
+- [ ] Org Service + Workflow Service at risk — not started
+- [ ] PSE ticket spike (225) needs RCA on MSME go-live issues
+- [ ] Auto-Decision Rate declining — needs OCR accuracy investigation
 
----
-
-## See Also
-
-- [[projects/conversational-onboarding]]
-- [[people/kailash-atal]]
-- [[okrs/fy26-q2]]
+[Source: OKR Sheet (SME_Payments_OKRs.xlsx), 2026-06-17]

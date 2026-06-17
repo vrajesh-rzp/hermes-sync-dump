@@ -20,7 +20,7 @@
     },
     {
       "id": "projects/onboarding-infrastructure",
-      "label": "Onboarding Infrastructure",
+      "label": "Onboarding Infrastructure (R1-Acqui)",
       "type": "project",
       "group": 3
     },
@@ -41,6 +41,12 @@
       "label": "Vrm Agentic Dashboard",
       "type": "code",
       "group": 6
+    },
+    {
+      "id": "initiatives/pan-duplication-analysis",
+      "label": "PAN Card Duplication Analysis \u2014 Active Merchants",
+      "type": "note",
+      "group": 8
     },
     {
       "id": "decisions/readme",
@@ -982,7 +988,7 @@
     },
     {
       "source": "projects/onboarding-infrastructure",
-      "target": "projects/conversational-onboarding"
+      "target": "people/sagar-agarwal"
     },
     {
       "source": "projects/onboarding-infrastructure",
@@ -990,7 +996,19 @@
     },
     {
       "source": "projects/onboarding-infrastructure",
-      "target": "okrs/fy26-q2"
+      "target": "people/vrajesh-iyengar"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "people/kailash-atal"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "people/sagar-agarwal"
+    },
+    {
+      "source": "projects/onboarding-infrastructure",
+      "target": "people/tejas-gowda"
     },
     {
       "source": "projects/conversational-onboarding",

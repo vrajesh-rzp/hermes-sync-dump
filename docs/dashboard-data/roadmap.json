@@ -1,8 +1,16 @@
 {
   "enhancements": [
-    {"id": "ENH-18449", "title": "Scale Launch to 5000 merchants", "stage": "prioritized", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"},
-    {"id": "ENH-18593", "title": "Proactive Digest & Merchant Engagement Stack", "stage": "prioritized", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"},
-    {"id": "ENH-18595", "title": "Service Quality — Escalation & Ticket Management", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"},
-    {"id": "ENH-18450", "title": "Razorpay Rewind — Rive Animation Additions", "stage": "cancelled", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"}
+    {"id": "ENH-16636", "title": "API Decomp: NC (Network Centricity)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1", "details": "100% ramped, 1 P0 pending - Table Deletion. Close by 23 Jun."},
+    {"id": "ENH-16769", "title": "API Decomp: User Service", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "Delayed. ETA: 20-Jul-2026."},
+    {"id": "ENH-16770", "title": "API Decomp: Activation Service", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "Stalled — Elan switched to SV Reduction Initiative."},
+    {"id": "ENH-18883", "title": "Org Service", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "At risk — not yet started. 50% dev target by Jun end."},
+    {"id": "ENH-18882", "title": "Workflow Service", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "At risk — Tech Spec in progress."},
+    {"id": "ENH-16634", "title": "ASV Decomp", "stage": "completed", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1", "details": "100% scaled. 1 P0 pending - Table Deletion."},
+    {"id": "ENH-17976", "title": "Demerger", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "Scoping pending."},
+    {"id": "ENH-18415", "title": "Address Verification (DataSutram + Quick Commerce)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "DataSutram integration live. Quick Commerce NDA pending."},
+    {"id": "ENH-18418", "title": "CKYC Upload Compliance", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "Deprioritized — PRD needed for scope/testbed."},
+    {"id": "PSE-REDUCTION", "title": "PSE Ticket Reduction (post-MSME spike)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "225 tickets in May (target <15). CIN verification + MSME unit name fixes."},
+    {"id": "FUNNEL-ADR", "title": "Auto-Decision Rate Recovery", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1-Q2", "details": "Declined 83.6% → 81.5%. OCR accuracy + RPD for MKYC."},
+    {"id": "1CLICK", "title": "1-Click Onboarding (20% Registered Businesses)", "stage": "in_progress", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q2", "details": "AOA/MOA/COI from IDFY done. MSME from Authbridge pending."}
   ]
 }

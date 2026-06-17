@@ -29,14 +29,14 @@
   {
     "slug": "projects/onboarding-infrastructure",
     "type": "project",
-    "title": "Onboarding Infrastructure",
-    "updated_at": "2026-06-17T12:14:58.261087Z",
+    "title": "Onboarding Infrastructure (R1-Acqui)",
+    "updated_at": "2026-06-17T15:47:52.665976Z",
     "tags": [
       "project",
       "onboarding",
-      "merchant-identity",
-      "kyc",
-      "r1-acqui"
+      "infra",
+      "api-decomp",
+      "compliance"
     ]
   },
   {
@@ -73,6 +73,13 @@
       "vrm",
       "backend"
     ]
+  },
+  {
+    "slug": "initiatives/pan-duplication-analysis",
+    "type": "note",
+    "title": "PAN Card Duplication Analysis \u2014 Active Merchants",
+    "updated_at": "2026-06-17T15:40:48.548668Z",
+    "tags": []
   },
   {
     "slug": "decisions/readme",
