@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { fetchTasks, saveTasks } from '../lib/github'
+import { fetchTasks, saveTasks, isGitHubConfigured } from '../lib/github'
 import type { Task } from '../types'
 import { Plus, Trash2, Check } from 'lucide-react'
 
@@ -11,29 +11,25 @@ export default function Tasks() {
   const [showForm, setShowForm] = useState(false)
   const [form, setForm] = useState({ title: '', dueDate: '', project: '', priority: 'medium' as Task['priority'] })
 
-  const pat = localStorage.getItem('hermes_github_pat') || ''
-
   useEffect(() => {
-    if (pat) {
-      fetchTasks(pat)
-        .then(({ tasks, sha }) => { setTasks(tasks); setSha(sha) })
-        .catch((e) => setError(e.message))
-        .finally(() => setLoading(false))
-    } else {
+    if (!isGitHubConfigured()) {
       setLoading(false)
-      setError('No GitHub PAT configured. Add one via the modal.')
+      setError('GitHub PAT not configured. Set VITE_GITHUB_PAT in .env (local) or as a GitHub secret (prod).')
+      return
     }
-  }, [pat])
+    fetchTasks()
+      .then(({ tasks, sha }) => { setTasks(tasks); setSha(sha) })
+      .catch((e) => setError(e.message))
+      .finally(() => setLoading(false))
+  }, [])
 
   const save = async (updated: Task[]) => {
     setTasks(updated)
-    if (pat) {
-      try {
-        const newSha = await saveTasks(pat, updated, sha)
-        setSha(newSha)
-      } catch (e: unknown) {
-        setError(e instanceof Error ? e.message : 'Save failed')
-      }
+    try {
+      const newSha = await saveTasks(updated, sha)
+      setSha(newSha)
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : 'Save failed')
     }
   }
 

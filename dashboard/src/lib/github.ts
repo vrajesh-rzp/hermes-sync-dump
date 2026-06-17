@@ -3,12 +3,21 @@ import type { Task } from '../types'
 const REPO = 'vrajesh-rzp/hermes-sync-dump'
 const FILE_PATH = 'dashboard-data/tasks.json'
 
+function getPAT(): string {
+  return import.meta.env.VITE_GITHUB_PAT || localStorage.getItem('vrajesh_ai_pat') || ''
+}
+
 interface GitHubFileResponse {
   content: string
   sha: string
 }
 
-export async function fetchTasks(pat: string): Promise<{ tasks: Task[]; sha: string }> {
+export async function fetchTasks(): Promise<{ tasks: Task[]; sha: string }> {
+  const pat = getPAT()
+  if (!pat) {
+    return { tasks: [], sha: '' }
+  }
+
   const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
     headers: {
       Authorization: `Bearer ${pat}`,
@@ -30,7 +39,10 @@ export async function fetchTasks(pat: string): Promise<{ tasks: Task[]; sha: str
   return { tasks, sha: data.sha }
 }
 
-export async function saveTasks(pat: string, tasks: Task[], sha: string): Promise<string> {
+export async function saveTasks(tasks: Task[], sha: string): Promise<string> {
+  const pat = getPAT()
+  if (!pat) throw new Error('No GitHub PAT configured')
+
   const content = btoa(JSON.stringify(tasks, null, 2))
 
   const body: Record<string, string> = {
@@ -57,4 +69,8 @@ export async function saveTasks(pat: string, tasks: Task[], sha: string): Promis
 
   const data = await res.json()
   return data.content.sha
+}
+
+export function isGitHubConfigured(): boolean {
+  return !!getPAT()
 }

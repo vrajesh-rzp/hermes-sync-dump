@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Sidebar from './components/Sidebar'
-import GithubPATModal from './components/GithubPATModal'
 import ExecutiveSummary from './views/ExecutiveSummary'
 import Tasks from './views/Tasks'
 import OKRTracker from './views/OKRTracker'
@@ -13,13 +12,6 @@ import Documents from './views/Documents'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
-  const [showPATModal, setShowPATModal] = useState(false)
-
-  useEffect(() => {
-    if (!localStorage.getItem('hermes_github_pat')) {
-      setShowPATModal(true)
-    }
-  }, [])
 
   useEffect(() => {
     if (darkMode) {
@@ -44,7 +36,6 @@ function App() {
           <Route path="/documents" element={<Documents />} />
         </Routes>
       </main>
-      {showPATModal && <GithubPATModal onClose={() => setShowPATModal(false)} />}
     </div>
   )
 }
