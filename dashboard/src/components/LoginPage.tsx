@@ -60,14 +60,17 @@ export default function LoginPage({ onSuccess }: Props) {
           minWidth: '380px',
         }}
       >
-        {/* Animated gradient title */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold gradient-text font-heading tracking-tight">
-            Vrajesh.ai
-          </h1>
-          <p className="text-sm mt-2" style={{ color: 'var(--text-secondary)' }}>
-            PM Brain Dashboard
-          </p>
+        {/* Logo + title */}
+        <div className="text-center flex flex-col items-center gap-4">
+          <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Vrajesh.ai" className="w-16 h-16" />
+          <div>
+            <h1 className="text-4xl font-bold gradient-text font-heading tracking-tight">
+              Vrajesh.ai
+            </h1>
+            <p className="text-sm mt-2" style={{ color: 'var(--text-secondary)' }}>
+              PM Brain Dashboard
+            </p>
+          </div>
         </div>
 
         {/* Divider */}

@@ -42,13 +42,16 @@ export default function Sidebar({ isAdmin }: Props) {
       <div className="neural-line" />
 
       {/* Logo section */}
-      <div className="p-5 border-b" style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}>
-        <h1 className="text-xl font-bold gradient-text font-heading tracking-tight">
-          Vrajesh.ai
-        </h1>
-        <p className="text-[11px] mt-1" style={{ color: 'var(--text-dim)' }}>
-          Neural Cortex Dashboard
-        </p>
+      <div className="p-5 border-b flex items-center gap-3" style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}>
+        <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Vrajesh.ai" className="w-8 h-8" />
+        <div>
+          <h1 className="text-xl font-bold gradient-text font-heading tracking-tight">
+            Vrajesh.ai
+          </h1>
+          <p className="text-[11px]" style={{ color: 'var(--text-dim)' }}>
+            Neural Cortex Dashboard
+          </p>
+        </div>
       </div>
 
       {/* User info */}
