@@ -4,7 +4,11 @@ const REPO = 'vrajesh-rzp/hermes-sync-dump'
 const FILE_PATH = 'dashboard-data/tasks.json'
 
 function getPAT(): string {
-  return import.meta.env.VITE_GITHUB_PAT || localStorage.getItem('vrajesh_ai_pat') || ''
+  try {
+    return localStorage.getItem('vrajesh_ai_pat') || ''
+  } catch {
+    return ''
+  }
 }
 
 interface GitHubFileResponse {
@@ -20,7 +24,7 @@ export async function fetchTasks(): Promise<{ tasks: Task[]; sha: string }> {
 
   const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
     headers: {
-      Authorization: `Bearer ${pat}`,
+      Authorization: `token ${pat}`,
       Accept: 'application/vnd.github.v3+json',
     },
   })
@@ -56,7 +60,7 @@ export async function saveTasks(tasks: Task[], sha: string): Promise<string> {
   const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
     method: 'PUT',
     headers: {
-      Authorization: `Bearer ${pat}`,
+      Authorization: `token ${pat}`,
       Accept: 'application/vnd.github.v3+json',
       'Content-Type': 'application/json',
     },
