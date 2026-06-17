@@ -31,3 +31,8 @@ tags: [person, self]
 - [[people/kailash-atal]]
 - [[people/sagar-agarwal]]
 - [[okrs/fy26-q2]]
+
+## Timeline
+
+- **2026-06-17** | Referenced in [Onboarding Infrastructure (R1-Acqui)](../projects/onboarding-infrastructure.md)
+- **2026-06-17** | Referenced in [Vrajesh's Brain](../README.md)

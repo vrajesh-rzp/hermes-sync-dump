@@ -48,3 +48,4 @@ None active.
 
 ## Timeline
 - **2026-05-20** | Brain page restructured to enriched format [Source: Brain restructure, 2026-05-20]
+- **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)

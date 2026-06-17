@@ -70,3 +70,7 @@ Vrajesh's direct manager. Has explicitly given Vrajesh space to focus on VRM. Be
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **2026-05-06** | Growth DEPA cadence running weekly with full cross-functional attendance including Vrajesh [Source: Gmail, 2026-05-20]
 - **2026-04-30** | April metrics review for Subscriptions + Gamification in progress; blockers identified [Source: Gmail, 2026-05-20]
+- **2026-06-17** | Referenced in [Onboarding Infrastructure (R1-Acqui)](../projects/onboarding-infrastructure.md)
+- **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
+- **2026-06-17** | Referenced in [Vrajesh's Brain](../README.md)
+- **2026-06-17** | Referenced in [Vrajesh Jaidev Iyengar](../people/vrajesh-iyengar.md)

@@ -67,3 +67,4 @@ Three levels above Vrajesh (Vrajesh → Sagar → Tejas → Khilan). Unusually d
 - **2026-05-22** | Declined VRM architecture breakout (OpenAI travel conflict) [Source: Gmail, 2026-05-20]
 - **2026-05-18** | Originally accepted VRM architecture session; status of actual attendance unclear [Source: Gmail, 2026-05-20]
 - **Late May 2026** | External OpenAI engagement travel [Source: Gmail, 2026-05-20]
+- **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)

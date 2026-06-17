@@ -46,3 +46,6 @@ Peripheral/advisory participant in the VRM stream. Part of the VRM x Agentic Das
 ## Timeline
 - **2026-05-20** | Identified as optional attendee in VRM weekly syncs and invitee for VRM x Agentic Dashboard architecture breakout (May 22). [Source: Gmail signals, May 2026]
 - **2026-05-20** | Brain page created and enriched from signals [Source: Gmail signals, May 2026]
+- **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
+- **2026-06-17** | Referenced in [VRM Agentic Dashboard](../code/vrm-agentic-dashboard.md)
+- **2026-06-17** | Referenced in [Migrate VRM to RSPL AWS Cluster](../decisions/aws-cluster-migration.md)

@@ -60,3 +60,5 @@ Skip-level manager (Sagar's manager). Vrajesh interacts with him due to proximit
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **2026-05-22** | Declined VRM architecture breakout session (OOO) [Source: Gmail, 2026-05-20]
 - **2026-05-18** | Declined VRM architecture breakout session (OOO) [Source: Gmail, 2026-05-20]
+- **2026-06-17** | Referenced in [Onboarding Infrastructure (R1-Acqui)](../projects/onboarding-infrastructure.md)
+- **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
