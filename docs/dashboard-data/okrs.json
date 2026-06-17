@@ -1,0 +1,26 @@
+{
+  "objectives": [
+    {
+      "id": "vrm-fy27-q1",
+      "title": "Launch VRM to 1,000+ merchants and establish product-market fit signals",
+      "quarter": "FY27 Q1",
+      "keyResults": [
+        {"id": "kr1", "title": "VRM Reach", "target": 5000, "current": 1000, "unit": "merchants", "status": "on_track", "history": [{"date": "2026-05-01", "value": 0}, {"date": "2026-06-01", "value": 1000}]},
+        {"id": "kr2", "title": "P95 Latency", "target": 60, "current": 100, "unit": "seconds", "status": "at_risk", "direction": "lower_is_better", "history": [{"date": "2026-05-01", "value": 100}, {"date": "2026-06-01", "value": 100}]},
+        {"id": "kr3", "title": "Engagement Rate", "target": 30, "current": 0, "unit": "%", "status": "not_started", "history": []},
+        {"id": "kr4", "title": "CSAT", "target": 3.5, "current": 0, "unit": "/5", "status": "not_started", "history": []}
+      ]
+    },
+    {
+      "id": "ob-infra-fy26-q2",
+      "title": "Onboarding Infrastructure becomes reliable and scalable",
+      "quarter": "FY26 Q2",
+      "keyResults": [
+        {"id": "kr1", "title": "Open Incident AIs", "target": 5, "current": 6, "unit": "incidents", "status": "in_progress", "direction": "lower_is_better", "history": [{"date": "2026-04-01", "value": 32}, {"date": "2026-05-01", "value": 6}]},
+        {"id": "kr2", "title": "BVS System Failure Rate", "target": 2, "current": 0, "unit": "%", "status": "not_started", "direction": "lower_is_better", "history": []},
+        {"id": "kr3", "title": "MSME Doc Go-Live Stability", "target": 0, "current": 15, "unit": "PSE tickets", "status": "at_risk", "direction": "lower_is_better", "history": [{"date": "2026-05-01", "value": 15}]},
+        {"id": "kr4", "title": "On-call Roster Coverage", "target": 100, "current": 100, "unit": "%", "status": "on_track", "history": [{"date": "2026-04-01", "value": 100}]}
+      ]
+    }
+  ]
+}

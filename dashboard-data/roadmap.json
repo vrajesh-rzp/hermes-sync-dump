@@ -1,0 +1,8 @@
+{
+  "enhancements": [
+    {"id": "ENH-18449", "title": "Scale Launch to 5000 merchants", "stage": "prioritized", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"},
+    {"id": "ENH-18593", "title": "Proactive Digest & Merchant Engagement Stack", "stage": "prioritized", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"},
+    {"id": "ENH-18595", "title": "Service Quality — Escalation & Ticket Management", "stage": "backlog", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"},
+    {"id": "ENH-18450", "title": "Razorpay Rewind — Rive Animation Additions", "stage": "cancelled", "owner": "Vrajesh Iyengar", "quarter": "FY27 Q1"}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {"id": "people/kailash-atal", "label": "Kailash Atal", "type": "person", "group": 1},
+    {"id": "people/sagar-agarwal", "label": "Sagar Agarwal", "type": "person", "group": 1},
+    {"id": "people/rishav-loomba", "label": "Rishav Loomba", "type": "person", "group": 1},
+    {"id": "people/vrajesh-iyengar", "label": "Vrajesh Jaidev Iyengar", "type": "person", "group": 1},
+    {"id": "people/tejas-gowda", "label": "Tejas Gowda", "type": "person", "group": 1},
+    {"id": "people/khilan-haria", "label": "Khilan Haria", "type": "person", "group": 1},
+    {"id": "people/harshil-mathur", "label": "Harshil Mathur", "type": "person", "group": 1},
+    {"id": "projects/onboarding-infrastructure", "label": "Onboarding Infrastructure", "type": "project", "group": 2},
+    {"id": "projects/conversational-onboarding", "label": "Conversational Onboarding", "type": "project", "group": 2},
+    {"id": "projects/vrm", "label": "VRM", "type": "project", "group": 2},
+    {"id": "concepts/vrm-signal-detection", "label": "VRM Signal Detection", "type": "concept", "group": 3},
+    {"id": "concepts/merchant-lifecycle", "label": "Merchant Lifecycle", "type": "concept", "group": 3},
+    {"id": "okrs/fy26-q2", "label": "FY26 Q2 OKRs", "type": "okr", "group": 4},
+    {"id": "decisions/aws-cluster-migration", "label": "AWS Cluster Migration", "type": "decision", "group": 5}
+  ],
+  "links": [
+    {"source": "projects/vrm", "target": "people/kailash-atal"},
+    {"source": "projects/vrm", "target": "people/sagar-agarwal"},
+    {"source": "projects/vrm", "target": "people/rishav-loomba"},
+    {"source": "projects/vrm", "target": "people/vrajesh-iyengar"},
+    {"source": "projects/vrm", "target": "concepts/vrm-signal-detection"},
+    {"source": "projects/onboarding-infrastructure", "target": "people/kailash-atal"},
+    {"source": "projects/onboarding-infrastructure", "target": "okrs/fy26-q2"},
+    {"source": "projects/onboarding-infrastructure", "target": "people/rishav-loomba"},
+    {"source": "projects/conversational-onboarding", "target": "people/kailash-atal"},
+    {"source": "projects/conversational-onboarding", "target": "people/rishav-loomba"},
+    {"source": "projects/conversational-onboarding", "target": "concepts/merchant-lifecycle"},
+    {"source": "okrs/fy26-q2", "target": "people/kailash-atal"},
+    {"source": "okrs/fy26-q2", "target": "projects/onboarding-infrastructure"},
+    {"source": "decisions/aws-cluster-migration", "target": "people/kailash-atal"},
+    {"source": "decisions/aws-cluster-migration", "target": "people/tejas-gowda"},
+    {"source": "decisions/aws-cluster-migration", "target": "people/khilan-haria"},
+    {"source": "concepts/vrm-signal-detection", "target": "projects/vrm"},
+    {"source": "concepts/vrm-signal-detection", "target": "people/vrajesh-iyengar"},
+    {"source": "projects/vrm", "target": "people/harshil-mathur"},
+    {"source": "projects/vrm", "target": "people/sagar-agarwal"},
+    {"source": "projects/onboarding-infrastructure", "target": "projects/conversational-onboarding"},
+    {"source": "projects/conversational-onboarding", "target": "projects/onboarding-infrastructure"}
+  ]
+}
