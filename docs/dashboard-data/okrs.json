@@ -1,25 +1,51 @@
 {
   "objectives": [
     {
-      "id": "vrm-fy27-q1",
-      "title": "Launch VRM to 1,000+ merchants and establish product-market fit signals",
-      "quarter": "FY27 Q1",
+      "id": "ob-infra-compliance",
+      "title": "Maintain 100% Compliance",
+      "quarter": "FY27",
+      "pod": "Onboarding Infra",
       "keyResults": [
-        {"id": "kr1", "title": "VRM Reach", "target": 5000, "current": 1000, "unit": "merchants", "status": "on_track", "history": [{"date": "2026-05-01", "value": 0}, {"date": "2026-06-01", "value": 1000}]},
-        {"id": "kr2", "title": "P95 Latency", "target": 60, "current": 100, "unit": "seconds", "status": "at_risk", "direction": "lower_is_better", "history": [{"date": "2026-05-01", "value": 100}, {"date": "2026-06-01", "value": 100}]},
-        {"id": "kr3", "title": "Engagement Rate", "target": 30, "current": 0, "unit": "%", "status": "not_started", "history": []},
-        {"id": "kr4", "title": "CSAT", "target": 3.5, "current": 0, "unit": "/5", "status": "not_started", "history": []}
+        {"id": "kr-address-verification", "title": "Build Infra for Address Verification (high risk merchants)", "target": 1.0, "current": 0, "unit": "shipped", "status": "in_progress", "history": [{"date": "2026-05-01", "value": 0}], "enhancement": "ENH-18415", "details": "DataSutram Integration + Quick Commerce address verification"},
+        {"id": "kr-ckyc-upload", "title": "100% Compliance on CKYC Upload", "target": 1.0, "current": 0, "unit": "shipped", "status": "at_risk", "history": [], "enhancement": "ENH-18418", "details": "CKYC Update via TSP (Hyperverge) + Control by Business Types. Deprioritized - PRD needed."},
+        {"id": "kr-auto-rekyc", "title": "Enable Auto Re-KYC (50% unreg businesses skip VCIP)", "target": 0.5, "current": 0, "unit": "fraction", "status": "not_started", "history": [], "details": "OTP-less CKYC download for unregistered businesses"}
       ]
     },
     {
-      "id": "ob-infra-fy26-q2",
-      "title": "Onboarding Infrastructure becomes reliable and scalable",
-      "quarter": "FY26 Q2",
+      "id": "ob-infra-api-decomp",
+      "title": "Achieve 100% API Decomposition",
+      "quarter": "FY27",
+      "pod": "Onboarding Infra",
       "keyResults": [
-        {"id": "kr1", "title": "Open Incident AIs", "target": 5, "current": 6, "unit": "incidents", "status": "in_progress", "direction": "lower_is_better", "history": [{"date": "2026-04-01", "value": 32}, {"date": "2026-05-01", "value": 6}]},
-        {"id": "kr2", "title": "BVS System Failure Rate", "target": 2, "current": 0, "unit": "%", "status": "not_started", "direction": "lower_is_better", "history": []},
-        {"id": "kr3", "title": "MSME Doc Go-Live Stability", "target": 0, "current": 15, "unit": "PSE tickets", "status": "at_risk", "direction": "lower_is_better", "history": [{"date": "2026-05-01", "value": 15}]},
-        {"id": "kr4", "title": "On-call Roster Coverage", "target": 100, "current": 100, "unit": "%", "status": "on_track", "history": [{"date": "2026-04-01", "value": 100}]}
+        {"id": "kr-decomp-nc", "title": "API Decomp: NC (Network Centricity)", "target": 1.0, "current": 1.0, "unit": "ramp %", "status": "on_track", "history": [{"date": "2026-04-01", "value": 1.0}, {"date": "2026-05-01", "value": 1.0}], "enhancement": "ENH-16636", "details": "100% ramp, 1 P0 pending - Table Deletion. Target close: 23 Jun"},
+        {"id": "kr-decomp-user-service", "title": "API Decomp: User Service", "target": 1.0, "current": 0.5, "unit": "ramp %", "status": "at_risk", "history": [{"date": "2026-05-01", "value": 0}], "enhancement": "ENH-16769", "details": "Ramp starts 9-June, completes 24-June. Delayed, ETA: 20-Jul-2026"},
+        {"id": "kr-decomp-activation", "title": "API Decomp: Activation Service", "target": 1.0, "current": 0.3, "unit": "ramp %", "status": "at_risk", "history": [{"date": "2026-05-01", "value": 0}], "enhancement": "ENH-16770", "details": "Ramp in progress for NC/UR. Stalled - Elan switched to SV Reduction Initiative"},
+        {"id": "kr-org-service", "title": "Org Service", "target": 0.5, "current": 0, "unit": "complete", "status": "at_risk", "history": [], "enhancement": "ENH-18883", "details": "50% dev by Jun'26 end. At risk - not yet started"},
+        {"id": "kr-workflow", "title": "Workflow Service", "target": 0.5, "current": 0, "unit": "complete", "status": "at_risk", "history": [], "enhancement": "ENH-18882", "details": "50% dev by Jun'26 end. At risk - Tech Spec in progress"},
+        {"id": "kr-asv-decomp", "title": "ASV Decomp", "target": 1.0, "current": 1.0, "unit": "ramp %", "status": "on_track", "history": [{"date": "2026-04-01", "value": 1.0}], "enhancement": "ENH-16634", "details": "100% scaled, 1 P0 pending - Table Deletion"},
+        {"id": "kr-demerger", "title": "Demerger", "target": 1.0, "current": 0, "unit": "scoped", "status": "not_started", "history": [], "enhancement": "ENH-17976", "details": "Scoping pending"}
+      ]
+    },
+    {
+      "id": "ob-infra-funnel",
+      "title": "Funnel Improvement",
+      "quarter": "FY27",
+      "pod": "Onboarding Infra",
+      "keyResults": [
+        {"id": "kr-pe-mtu", "title": "Improve PE to MTU % (remove liveness checks)", "target": 1.0, "current": 0, "unit": "shipped", "status": "in_progress", "history": [], "details": "Pending"},
+        {"id": "kr-auto-decision", "title": "Increase Auto-Decision Rate", "target": 0.9, "current": 0.815, "unit": "rate", "status": "at_risk", "direction": "higher_is_better", "history": [{"date": "2026-03-01", "value": 0.836}, {"date": "2026-04-01", "value": 0.831}, {"date": "2026-05-01", "value": 0.815}], "details": "Declining from 83.6% to 81.5%. Needs attention."},
+        {"id": "kr-1click-onboarding", "title": "1-Click Onboarding for 20% of Registered Businesses", "target": 0.2, "current": 0, "unit": "fraction", "status": "in_progress", "history": [], "details": "AOA/MOA/COI fetch from IDFY (completed), MSME fetch from Authbridge (pending)"}
+      ]
+    },
+    {
+      "id": "ob-infra-experience",
+      "title": "Reduce Merchants Having a Disastrous Experience",
+      "quarter": "FY27",
+      "pod": "Onboarding Infra",
+      "keyResults": [
+        {"id": "kr-pse-tickets", "title": "Reduce PSE Tickets", "target": 15, "current": 225, "unit": "tickets/month", "status": "at_risk", "direction": "lower_is_better", "history": [{"date": "2026-03-01", "value": 41}, {"date": "2026-04-01", "value": 25}, {"date": "2026-05-01", "value": 225}], "details": "Spiked from 25 to 225 in May due to MSME go-live"},
+        {"id": "kr-pse-sla", "title": "PSE Tickets Resolved Within SLA", "target": 0.95, "current": 0.932, "unit": "rate", "status": "in_progress", "direction": "higher_is_better", "history": [{"date": "2026-03-01", "value": 0.46}, {"date": "2026-04-01", "value": 0.87}, {"date": "2026-05-01", "value": 0.932}], "details": "Good progress: 46% to 93.2%. CIN verification, MSME unit name issues remain"},
+        {"id": "kr-login-latency", "title": "Reduce USL Page Load Latency to 1 second", "target": 1.0, "current": 3.0, "unit": "seconds", "status": "in_progress", "direction": "lower_is_better", "history": [{"date": "2026-03-01", "value": 3.0}], "details": "Owner: Kailash Atal"}
       ]
     }
   ]
