@@ -66,3 +66,16 @@ Suggested next steps
 
 You should review Gemini's notes to make sure they're accurate. Get tips and learn how Gemini takes notes
 Please provide feedback about using Gemini to take notes in a short survey.
+
+---
+
+## Series
+- Next: [[meetings/2026-06-08-subscriptions_daily_sync-10]]
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/raktim-talukdar]]
+- [[people/sagar-agarwal]]
+- [[people/satyam-mishra]]
+- [[people/shubham-singhal]]
+- [[people/vrajesh-iyengar]]

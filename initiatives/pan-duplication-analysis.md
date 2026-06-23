@@ -1,16 +1,11 @@
-# PAN Card Duplication Analysis — Active Merchants
-
-**Date:** 2026-06-17  
-**Source:** `hive.realtime_hudi_api.stakeholders` JOIN `hive.aggregate_pa.merchant_fact_hourly_incremental`  
-**Scope:** All currently activated merchants | Exact PAN match (uppercase, 10-char, excluding test PANs)  
-**Catalog Status:** FROM_SCRATCH (no certified query exists)
-
 ---
 
 ## Overall Summary
 
 | Metric | Value |
-|--------|-------|
+|
+created: 2026-06-10
+--------|-------|
 | **Total unique PANs** | 1,353,870 |
 | **PANs used by only 1 merchant** | 1,218,598 (90.0%) |
 | **PANs shared by >1 merchant** | **135,272 (10.0%)** |
@@ -126,3 +121,8 @@ The bulk of sharing is at 2 merchants per PAN (81% of shared PANs).
 - **Segment source:** `team_owner` field in `merchant_fact_hourly_incremental` (values: SME, ENT)
 - **Filter:** `activation_status = 'activated'` / `current_activation_status = 'activated'` only (~2.1M of 15.16M total merchants)
 - Some merchants may appear in both segments if migrated between teams — uses current team assignment
+
+---
+
+## Timeline
+- **2026-06-10** | Page created in brain

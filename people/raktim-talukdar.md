@@ -56,3 +56,23 @@ Now the primary operational contact for VRM sync scheduling. Has had dedicated s
 - **2026-05-04** | Invited by Parul Singh to Unregistered user monetisation sync with Vrajesh and Nikhil Khadilkar [Source: Gmail, 2026-05-20]
 - **2026-05 (ongoing)** | Core VRM sync participant, 2x/week [Source: Gmail, 2026-05-20]
 - **Pending** | Sync with Nikunj Kaushik on HQL threshold redefinition [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-06-16-new_merchant_credits_offer_testing]] (2026-06-16)
+- [[meetings/2026-06-08-gamification_kt_session_1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion-1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-1]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-10]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-11]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-12]] (2026-06-08)
+
+## Linked Entities
+- [[people/apoorv-chaturvedi]]
+- [[people/nikhil-khadilkar]]
+- [[people/nikunj-kaushik]]
+- [[people/parul-singh]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

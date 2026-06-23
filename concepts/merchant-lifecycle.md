@@ -2,6 +2,7 @@
 title: Merchant Lifecycle (M0–M12)
 type: concept
 tags: [concept, vrm, retention, merchants]
+created: 2026-05-20
 ---
 
 ## Stages
@@ -43,3 +44,22 @@ VRM's primary focus is **M3–M12 retention**, but signals from M0–M2 feed VRM
 
 - [[projects/vrm]]
 - [[concepts/vrm-signal-detection]]
+
+---
+
+## Timeline
+- **2026-06-08** | Discussed in Sprint Planning - Growth
+- **2026-06-08** | Discussed in VRM CLM - Anurag / Vrajesh
+- **2026-05-19** | Discussed in VRM Weekly Sync
+- **2026-05-12** | Discussed in [IMP] VRM <> DevOps
+- **2026-05-12** | Discussed in VRM Weekly Sync
+
+## Related Meetings
+- [[meetings/2026-06-08-sprint_planning_-_growth]] (2026-06-08)
+- [[meetings/2026-06-08-vrm_clm_-_anurag___vrajesh]] (2026-06-08)
+- [[meetings/2026-05-19-vrm_weekly_sync-1]] (2026-05-19)
+- [[meetings/2026-05-12-imp__vrm____devops]] (2026-05-12)
+- [[meetings/2026-05-12-vrm_weekly_sync]] (2026-05-12)
+- [[meetings/2026-04-24-bitscale_nda___saas_order_form]] (2026-04-24)
+- [[meetings/2026-04-01-imp__ownership_allignment___path_forward]] (2026-04-01)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)

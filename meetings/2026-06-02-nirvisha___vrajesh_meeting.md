@@ -88,3 +88,8 @@ Transcription ended after 00:25:52
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/vrajesh-iyengar]]

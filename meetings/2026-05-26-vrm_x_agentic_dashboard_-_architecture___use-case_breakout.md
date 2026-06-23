@@ -190,3 +190,21 @@ Transcription ended after 00:15:06
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/apoorv-chaturvedi]]
+- [[people/apuarv-sethi]]
+- [[people/dushyant-panda]]
+- [[people/harshil-mathur]]
+- [[people/khilan-haria]]
+- [[people/prashant-chaudhary]]
+- [[people/raktim-talukdar]]
+- [[people/rishav-loomba]]
+- [[people/sagar-agarwal]]
+- [[people/tejas-gowda]]
+- [[people/vinay-chopra]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

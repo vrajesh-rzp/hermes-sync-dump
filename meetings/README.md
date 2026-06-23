@@ -38,3 +38,9 @@ tags: [meeting, <topic-tag>]
 - Capture **decisions** made in a meeting as separate files under `decisions/` and link back.
 - Use `## Action Items` sections with `- [ ]` checkboxes assigned to owners.
 - Keep raw notes in a `## Notes` section; distil key takeaways under `## Summary`.
+
+---
+
+## Linked Entities
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

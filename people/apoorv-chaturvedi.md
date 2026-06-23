@@ -48,7 +48,26 @@ One of Vrajesh's most frequent scheduled touchpoints via VRM syncs. Directly co-
 ---
 
 ## Timeline
+- **2026-05-26** | Participated in VRM Weekly Sync
+- **2026-05-26** | Participated in VRM x Agentic Dashboard - Architecture & Use-Case Breakout
+- **2026-05-19** | Participated in VRM Weekly Sync
+- **2026-05-19** | Participated in VRM Weekly Sync
+- **2026-05-14** | Participated in VRM Weekly Sync
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **2026-05-19** | Raktim Talukdar took over as VRM sync calendar host [Source: Gmail, 2026-05-20]
 - **2026-05-07** | Organised dedicated VRM sync with Vrajesh and Raktim Talukdar [Source: Gmail, 2026-05-20]
-- **2026-05 (ongoing)** | Original host of VRM Weekly Sync, 2x/week Tue & Thu 3:30–4pm IST [Source: Gmail, 2026-05-20]
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_weekly_sync]] (2026-05-26)
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-05-19-vrm_weekly_sync-1]] (2026-05-19)
+- [[meetings/2026-05-19-vrm_weekly_sync]] (2026-05-19)
+- [[meetings/2026-05-14-vrm_weekly_sync]] (2026-05-14)
+- [[meetings/2026-05-12-vrm_weekly_sync]] (2026-05-12)
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/raktim-talukdar]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

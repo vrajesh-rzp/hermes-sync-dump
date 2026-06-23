@@ -357,3 +357,10 @@ Transcription ended after 00:14:36
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/rishav-loomba]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

@@ -48,7 +48,30 @@ Directly looped Vrajesh into the Unreg user monetisation sync on May 4 — makin
 ---
 
 ## Timeline
+- **2026-06-16** | Participated in New Merchant Credits Offer Testing
+- **2026-06-08** | Participated in Gamification KT Session 1
+- **2026-06-08** | Participated in Growth Ideas Discussion
+- **2026-06-08** | Participated in Growth Ideas Discussion
+- **2026-06-08** | Participated in Shubham x nikhil x vrajesh
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **2026-05-04** | Organised Unregistered user monetisation sync — invited Vrajesh, Nikhil Khadilkar, Raktim Talukdar [Source: Gmail, 2026-05-20]
 - **2026-05 (ongoing)** | Co-organising MoE identifier for Re-KYC merchant comms with Anushri Singhai, Shobhit Jain, Yameni Dhankar [Source: Gmail, 2026-05-20]
-- **2026-05 (ongoing)** | Regular Growth standup participant [Source: Gmail, 2026-05-20]
+---
+
+## Meetings
+- [[meetings/2026-06-16-new_merchant_credits_offer_testing]] (2026-06-16)
+- [[meetings/2026-06-08-gamification_kt_session_1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion-1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-1]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-10]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-11]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-12]] (2026-06-08)
+
+## Linked Entities
+- [[people/anushri-singhai]]
+- [[people/nikhil-khadilkar]]
+- [[people/raktim-talukdar]]
+- [[people/vrajesh-iyengar]]
+- [[people/yameni-dhankar]]
+- [[projects/vrm]]

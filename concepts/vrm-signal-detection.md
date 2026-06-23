@@ -2,6 +2,7 @@
 title: VRM Signal Detection
 type: concept
 tags: [concept, vrm, ai]
+created: 2026-05-20
 ---
 
 ## What it is
@@ -42,3 +43,11 @@ Concretely, signal detection:
 
 - [[projects/vrm]]
 - [[concepts/merchant-lifecycle]]
+
+---
+
+## Timeline
+- **2026-05-20** | Page created in brain
+
+## Related Meetings
+- [[meetings/2026-05-12-vrm_weekly_sync]] (2026-05-12)

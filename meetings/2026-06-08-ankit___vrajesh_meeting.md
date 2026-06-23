@@ -151,3 +151,10 @@ Transcription ended after 00:24:49
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/sheetal-monica-murthy]]
+- [[people/vrajesh-iyengar]]

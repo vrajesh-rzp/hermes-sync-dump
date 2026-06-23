@@ -53,3 +53,17 @@ Cross-functional TPM partner embedded in the Growth and R1 group. Runs the R1 ti
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **Ongoing (May 2026)** | Running weekly R1 ticket review (TS + PSE) with large cross-functional stakeholder group [Source: Gmail, 2026-05-20]
 - **Ongoing (May 2026)** | Active on MoE identifier for Re-KYC merchant communication use case with Parul Singh, Shobhit Jain, Yameni Dhankar [Source: Gmail, 2026-05-20]
+
+---
+
+## Linked Entities
+- [[people/ashish-tewari]]
+- [[people/kailash-atal]]
+- [[people/nikhil-khadilkar]]
+- [[people/parul-singh]]
+- [[people/tejas-gowda]]
+- [[people/tushar-saxena]]
+- [[people/vinay-chopra]]
+- [[people/vrajesh-iyengar]]
+- [[people/yameni-dhankar]]
+- [[projects/vrm]]

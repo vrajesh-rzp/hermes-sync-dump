@@ -1,183 +1,158 @@
-import type { OKR, KnowledgeGraphData, Person, RoadmapItem, ActivityItem, DocumentItem } from '../types'
+const BASE = import.meta.env.BASE_URL;
 
-const BASE = import.meta.env.BASE_URL + 'dashboard-data/'
+export interface ThreadUpdate {
+  timestamp: string;
+  source: string;
+  content: string;
+  source_url?: string;
+}
 
-async function fetchJSON<T>(file: string): Promise<T | null> {
+export interface ActionRecord {
+  id: string;
+  action: string;
+  message: string;
+  thread_id: string;
+  created_at: string;
+  status: "pending" | "executed" | "failed";
+  executed_at?: string;
+  result?: string;
+}
+
+export interface ThreadItem {
+  id: string;
+  title: string;
+  status: "active" | "watching" | "closed";
+  action_needed: "respond" | "review" | "approve" | "none";
+  source: string;
+  channel: string;
+  deadline: string;
+  response_eta: "urgent" | "today" | "this-week" | "no-rush";
+  last_update: string;
+  created: string;
+  summary: string;
+  update_count: number;
+  participants: string[];
+  related_threads: string[];
+  project: string;
+  devrev_ref: string;
+  updates?: ThreadUpdate[];
+  actions?: ActionRecord[];
+}
+
+export interface ThreadsData {
+  generated_at: string;
+  threads: ThreadItem[];
+  counts: { active: number; watching: number; closed_today: number };
+}
+
+export interface PulseData {
+  generated_at: string;
+  date: string;
+  counts: { active: number; watching: number; due_today: number; total_threads: number };
+  history: { date: string; active: number; watching: number }[];
+}
+
+export interface Priority {
+  id: string;
+  title: string;
+  status: "active" | "pending" | "done";
+  project?: string;
+}
+
+export interface PrioritiesData {
+  weekly: Priority[];
+  monthly: Priority[];
+  updated_at: string;
+}
+
+export interface OKRMetric {
+  current: number;
+  target_q2: number;
+  target_eofy: number;
+  daily: { date: string; value: number }[];
+  weekly: { week: string; value: number }[];
+  monthly: { month: string; value: number }[];
+}
+
+export interface OKRMetricsData {
+  generated_at: string;
+  metrics: Record<string, OKRMetric>;
+}
+
+async function fetchJson<T>(path: string): Promise<T | null> {
   try {
-    const res = await fetch(BASE + file)
-    if (!res.ok) return null
-    return await res.json()
+    const resp = await fetch(`${BASE}${path}`);
+    if (!resp.ok) return null;
+    return await resp.json();
   } catch {
-    return null
+    return null;
   }
 }
 
-export async function loadOKRs(): Promise<OKR[]> {
-  const raw = await fetchJSON<any>('okrs.json')
-  if (!raw) return getSampleOKRs()
-  // Handle {objectives: [...]} wrapper format
-  const objectives = Array.isArray(raw) ? raw : raw.objectives ?? []
-  return objectives.map((o: any) => ({
-    id: o.id,
-    objective: o.title || o.objective,
-    keyResults: (o.keyResults || []).map((kr: any) => ({
-      id: kr.id,
-      title: kr.title,
-      current: kr.current ?? 0,
-      target: kr.target ?? 1,
-      unit: kr.unit || '',
-      ragStatus: mapStatus(kr.status),
-      history: kr.history || [],
-    })),
-  }))
-}
-
-function mapStatus(s: string): 'green' | 'amber' | 'red' {
-  if (s === 'on_track') return 'green'
-  if (s === 'at_risk') return 'red'
-  if (s === 'in_progress') return 'amber'
-  return 'amber'
-}
-
-export async function loadGraph(): Promise<KnowledgeGraphData> {
-  return (await fetchJSON<KnowledgeGraphData>('graph.json')) ?? getSampleGraph()
-}
-
-export async function loadPeople(): Promise<Person[]> {
-  const raw = await fetchJSON<any[]>('people.json')
-  if (!raw || !Array.isArray(raw)) return getSamplePeople()
-  return raw.map((p: any) => ({
-    id: p.slug || p.id,
-    name: p.name,
-    role: p.role || '',
-    team: p.team || '',
-    meetings: p.meetings ?? 0,
-    lastInteraction: p.updated_at || p.lastInteraction,
-  }))
-}
-
-export async function loadRoadmap(): Promise<RoadmapItem[]> {
-  const raw = await fetchJSON<any>('roadmap.json')
-  if (!raw) return getSampleRoadmap()
-  const items = Array.isArray(raw) ? raw : raw.enhancements ?? []
-  return items.map((r: any) => ({
-    id: r.id,
-    title: r.title,
-    stage: r.stage as RoadmapItem['stage'],
-    quarter: r.quarter,
-    owner: r.owner,
-    startDate: r.startDate,
-    endDate: r.endDate,
-  }))
-}
-
-export async function loadActivity(): Promise<ActivityItem[]> {
-  const raw = await fetchJSON<any[]>('activity.json')
-  if (!raw || !Array.isArray(raw)) return getSampleActivity()
-  return raw.map((a: any, i: number) => ({
-    id: a.id || a.slug || String(i),
-    title: a.title,
-    type: a.type === 'meeting' ? 'meeting' : a.type === 'decision' ? 'decision' : 'document',
-    date: a.date,
-    description: a.description,
-    participants: a.participants,
-  }))
-}
-
-export async function loadDocuments(): Promise<DocumentItem[]> {
-  return (await fetchJSON<DocumentItem[]>('documents.json')) ?? getSampleDocuments()
-}
-
-// Sample data fallbacks
-
-function getSampleOKRs(): OKR[] {
-  return [
-    {
-      id: '1',
-      objective: 'Launch VRM to 1,000 merchants',
-      keyResults: [
-        { id: 'kr1', title: 'Merchants onboarded', current: 850, target: 1000, unit: 'merchants', ragStatus: 'amber', history: [{ date: '2026-05', value: 300 }, { date: '2026-06', value: 850 }] },
-        { id: 'kr2', title: 'P95 Latency', current: 95, target: 100, unit: 'seconds', ragStatus: 'green', history: [{ date: '2026-05', value: 120 }, { date: '2026-06', value: 95 }] },
-        { id: 'kr3', title: 'Response Accuracy', current: 88.9, target: 92, unit: '%', ragStatus: 'red', history: [{ date: '2026-05', value: 85 }, { date: '2026-06', value: 88.9 }] },
-      ],
-    },
-    {
-      id: '2',
-      objective: 'Improve M3-M12 Retention Rate',
-      keyResults: [
-        { id: 'kr4', title: 'Retention Rate', current: 20.5, target: 23, unit: '%', ragStatus: 'amber', history: [{ date: '2026-05', value: 19 }, { date: '2026-06', value: 20.5 }] },
-        { id: 'kr5', title: 'Silent Churn Rate', current: 40, target: 38, unit: '%', ragStatus: 'amber', history: [{ date: '2026-05', value: 42 }, { date: '2026-06', value: 40 }] },
-      ],
-    },
-  ]
-}
-
-function getSampleGraph(): KnowledgeGraphData {
-  return {
-    nodes: [
-      { id: 'vrajesh', label: 'Vrajesh Iyengar', type: 'person' },
-      { id: 'sagar', label: 'Sagar Agarwal', type: 'person' },
-      { id: 'tejas', label: 'Tejas Gowda', type: 'person' },
-      { id: 'vrm', label: 'VRM Project', type: 'project' },
-      { id: 'retention', label: 'Merchant Retention', type: 'concept' },
-      { id: 'ai-agent', label: 'AI Agent Architecture', type: 'concept' },
-      { id: 'proactive-digest', label: 'Proactive Digest', type: 'project' },
-      { id: 'dashboard-int', label: 'Dashboard Integration', type: 'project' },
-    ],
-    links: [
-      { source: 'vrajesh', target: 'vrm', weight: 5 },
-      { source: 'vrajesh', target: 'sagar', weight: 4 },
-      { source: 'vrajesh', target: 'tejas', weight: 2 },
-      { source: 'sagar', target: 'vrm', weight: 3 },
-      { source: 'vrm', target: 'retention', weight: 4 },
-      { source: 'vrm', target: 'ai-agent', weight: 3 },
-      { source: 'vrm', target: 'proactive-digest', weight: 3 },
-      { source: 'vrm', target: 'dashboard-int', weight: 2 },
-      { source: 'tejas', target: 'retention', weight: 2 },
-    ],
+export async function loadActions(): Promise<ActionRecord[]> {
+  try {
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    if (isLocal) {
+      const resp = await fetch('/api/action');
+      if (resp.ok) return await resp.json();
+    }
+    return [];
+  } catch {
+    return [];
   }
 }
 
-function getSamplePeople(): Person[] {
-  return [
-    { id: 'vrajesh', name: 'Vrajesh Iyengar', role: 'IC PM', team: 'VRM', meetings: 24, lastInteraction: '2026-06-17' },
-    { id: 'sagar', name: 'Sagar Agarwal', role: 'Manager', team: 'SME Payments', meetings: 18, lastInteraction: '2026-06-16' },
-    { id: 'tejas', name: 'Tejas Gowda', role: 'Skip Manager', team: 'SME Payments', meetings: 5, lastInteraction: '2026-06-10' },
-    { id: 'eng-lead', name: 'Engineering Lead', role: 'Tech Lead', team: 'VRM', meetings: 15, lastInteraction: '2026-06-17' },
-    { id: 'data-eng', name: 'Data Engineer', role: 'Engineer', team: 'VRM', meetings: 8, lastInteraction: '2026-06-14' },
-  ]
+export async function loadThreads(): Promise<ThreadsData | null> {
+  const [threadsData, actions] = await Promise.all([
+    fetchJson<ThreadsData>("command-center/threads.json"),
+    loadActions(),
+  ]);
+  if (!threadsData) return null;
+
+  // Merge actions into their respective threads
+  if (actions.length > 0) {
+    const actionsByThread = new Map<string, ActionRecord[]>();
+    for (const action of actions) {
+      const tid = action.thread_id || '';
+      if (!actionsByThread.has(tid)) actionsByThread.set(tid, []);
+      actionsByThread.get(tid)!.push(action);
+    }
+    threadsData.threads = threadsData.threads.map(t => ({
+      ...t,
+      actions: actionsByThread.get(t.id) || t.actions || [],
+    }));
+  }
+
+  return threadsData;
 }
 
-function getSampleRoadmap(): RoadmapItem[] {
-  return [
-    { id: '1', title: 'VRM Go-Live (1K merchants)', stage: 'in_progress', quarter: 'Q1 FY27', owner: 'Vrajesh', startDate: '2026-04-01', endDate: '2026-05-31' },
-    { id: '2', title: 'Proactive Digest Stack', stage: 'prioritized', quarter: 'Q1 FY27', owner: 'Vrajesh', startDate: '2026-05-15', endDate: '2026-06-30' },
-    { id: '3', title: 'Agentic Dashboard Integration', stage: 'backlog', quarter: 'Q2 FY27', owner: 'Vrajesh' },
-    { id: '4', title: 'Scale to 5K merchants', stage: 'prioritized', quarter: 'Q1 FY27', owner: 'Vrajesh', startDate: '2026-06-01', endDate: '2026-06-30' },
-    { id: '5', title: 'Latency Optimization (<30s)', stage: 'backlog', quarter: 'Q2 FY27', owner: 'Engineering' },
-    { id: '6', title: 'Multi-language Support', stage: 'backlog', quarter: 'Q3 FY27' },
-  ]
+export async function loadPulse(): Promise<PulseData | null> {
+  return fetchJson<PulseData>("command-center/pulse.json");
 }
 
-function getSampleActivity(): ActivityItem[] {
-  return [
-    { id: '1', title: 'VRM Sprint Planning', type: 'meeting', date: '2026-06-17', participants: ['Vrajesh', 'Sagar', 'Eng Lead'] },
-    { id: '2', title: 'Decided: Proactive digest frequency = weekly', type: 'decision', date: '2026-06-16' },
-    { id: '3', title: 'VRM Architecture Review', type: 'meeting', date: '2026-06-14', participants: ['Vrajesh', 'Eng Lead', 'Data Eng'] },
-    { id: '4', title: 'Concept Note: Agentic Dashboard', type: 'document', date: '2026-06-12' },
-    { id: '5', title: 'Skip-level with Tejas', type: 'meeting', date: '2026-06-10', participants: ['Vrajesh', 'Tejas'] },
-    { id: '6', title: 'Merchant Retention Deep Dive', type: 'meeting', date: '2026-06-08', participants: ['Vrajesh', 'Sagar', 'Data Eng'] },
-    { id: '7', title: 'Milestone: 500 merchants onboarded', type: 'milestone', date: '2026-06-05' },
-  ]
+export async function loadPriorities(): Promise<PrioritiesData | null> {
+  return fetchJson<PrioritiesData>("command-center/priorities.json");
 }
 
-function getSampleDocuments(): DocumentItem[] {
-  return [
-    { id: '1', title: 'VRM FY27 Strategy', type: 'strategy', updatedAt: '2026-06-15', tags: ['vrm', 'strategy', 'fy27'] },
-    { id: '2', title: 'Concept Note: Proactive Digest', type: 'concept', updatedAt: '2026-06-12', tags: ['vrm', 'digest', 'proactive'] },
-    { id: '3', title: 'Agentic Dashboard PRD', type: 'project', updatedAt: '2026-06-10', tags: ['vrm', 'dashboard', 'prd'] },
-    { id: '4', title: 'VRM API Design', type: 'code', updatedAt: '2026-06-08', tags: ['vrm', 'api', 'engineering'] },
-    { id: '5', title: 'Decision: Digest Frequency', type: 'decision', updatedAt: '2026-06-16', tags: ['vrm', 'digest'] },
-    { id: '6', title: 'Retention Analysis Notes', type: 'note', updatedAt: '2026-06-05', tags: ['retention', 'analysis'] },
-  ]
+export async function loadOKRMetrics(): Promise<OKRMetricsData | null> {
+  const ccMetrics = await fetchJson<OKRMetricsData>("command-center/okr-metrics.json");
+  if (ccMetrics) return ccMetrics;
+
+  const legacyOKRs = await fetchJson<{ objectives: { title: string; keyResults: { id: string; title: string; target: number; current: number; unit: string; status: string }[] }[] }>("dashboard-data/okrs.json");
+  if (!legacyOKRs) return null;
+
+  const metrics: Record<string, OKRMetric> = {};
+  for (const obj of legacyOKRs.objectives || []) {
+    for (const kr of obj.keyResults || []) {
+      metrics[kr.id] = {
+        current: kr.current * 100,
+        target_q2: kr.target * 100,
+        target_eofy: kr.target * 100,
+        daily: [],
+        weekly: [],
+        monthly: [],
+      };
+    }
+  }
+  return { generated_at: "", metrics };
 }

@@ -3,6 +3,7 @@ title: Migrate VRM to RSPL AWS Cluster
 type: decision
 tags: [decision, infra, vrm]
 status: in-progress
+created: 2026-05-13
 ---
 
 ## Decision
@@ -65,3 +66,12 @@ Pending:
 ## Date
 
 2026-05
+
+---
+
+## Timeline
+- **2026-05-13** | Page created in brain
+
+## Linked Entities
+- [[people/rishav-loomba]]
+- [[projects/vrm]]

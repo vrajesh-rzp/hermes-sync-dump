@@ -2,6 +2,7 @@
 title: Elancheziyan A S
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Lead Software Development Engineer
@@ -19,3 +20,10 @@ tags: [person, razorpay, ob-infra]
 ## Timeline
 
 - 2026-06 | Active in OB Infra channel. Currently out of office (brother's wedding).
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

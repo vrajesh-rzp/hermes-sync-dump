@@ -56,3 +56,17 @@ Co-participant with Vrajesh in the Growth DEPA weekly. The HQL threshold work wi
 - **2026-05 (ongoing)** | Regular Growth DEPA weekly participant [Source: Gmail, 2026-05-20]
 - **Pending** | Sync with Raktim on HQL thresholds [Source: Gmail, 2026-05-20]
 - **Pending** | Share funnel model projections to Sagar [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/raktim-talukdar]]
+- [[people/sagar-agarwal]]
+- [[people/tushar-saxena]]
+- [[people/varghese-mathew]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

@@ -25,3 +25,9 @@ gemini_doc_id: 1wewjzK0J0Isb8UN3ayZJoaZzZ78k1O04fjnMN_QIE7M
 ## Full Notes
 
 ﻿
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]

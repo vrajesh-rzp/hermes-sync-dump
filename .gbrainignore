@@ -1,0 +1,8 @@
+# Directories that are NOT brain content — exclude from gbrain sync/scoring
+command-center/
+actions-queue/
+docs/
+dashboard/
+dashboard-data/
+node_modules/
+.github/

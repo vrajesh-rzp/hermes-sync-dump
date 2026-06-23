@@ -2,6 +2,7 @@
 title: Shubham Singhal
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Senior Software Development Engineer
@@ -17,5 +18,25 @@ tags: [person, razorpay, ob-infra]
 ---
 
 ## Timeline
-
+- **2026-06-08** | Participated in Shubham x nikhil x vrajesh
+- **2026-06-08** | Participated in Sprint Planning - Growth
+- **2026-06-08** | Participated in Subscriptions Daily Sync
+- **2026-06-08** | Participated in Subscriptions Daily Sync
+- **2026-06-08** | Participated in Subscriptions Daily Sync
 - 2026-06 | Active PR reviewer in OB Infra channel.
+---
+
+## Meetings
+- [[meetings/2026-06-08-shubham_x_nikhil_x_vrajesh]] (2026-06-08)
+- [[meetings/2026-06-08-sprint_planning_-_growth]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-1]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-10]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-11]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-12]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-13]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-14]] (2026-06-08)
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

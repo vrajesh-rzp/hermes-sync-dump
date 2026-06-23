@@ -50,3 +50,16 @@ Indirect peer in Vrajesh's Growth ecosystem. Shares the Growth DEPA weekly forum
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **2026-05 (ongoing)** | Regular Growth DEPA weekly participant alongside Sagar, Nikhil, Nikunj, Tushar, Suhas, Gopi [Source: Gmail, 2026-05-20]
 - **2026-05 (approx)** | Organised farewell for Pingal Kakati — invited full design org (60+ people), playful tone [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/nikunj-kaushik]]
+- [[people/sagar-agarwal]]
+- [[people/tushar-saxena]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

@@ -1099,3 +1099,13 @@ Transcription ended after 01:20:57
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/satyam-mishra]]
+- [[people/shubham-singhal]]
+- [[people/tushar-saxena]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

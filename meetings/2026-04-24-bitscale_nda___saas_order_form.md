@@ -322,3 +322,10 @@ Transcription ended after 00:09:13
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/bhoomika-barua]]
+- [[people/nikhil-khadilkar]]
+- [[people/vrajesh-iyengar]]

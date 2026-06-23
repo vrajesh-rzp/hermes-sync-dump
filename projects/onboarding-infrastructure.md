@@ -2,6 +2,7 @@
 type: project
 title: "Onboarding Infrastructure (R1-Acqui)"
 tags: [project, onboarding, infra, api-decomp, compliance]
+created: 2026-05-20
 ---
 
 # Onboarding Infrastructure (R1-Acqui)
@@ -59,3 +60,25 @@ tags: [project, onboarding, infra, api-decomp, compliance]
 - [ ] Auto-Decision Rate declining — needs OCR accuracy investigation
 
 [Source: OKR Sheet (SME_Payments_OKRs.xlsx), 2026-06-17]
+
+---
+
+## Timeline
+- **2026-05-20** | Page created in brain
+
+## Related Meetings
+- [[meetings/2026-06-08-sprint_planning_-_growth]] (2026-06-08)
+- [[meetings/2026-06-08-subscription_issues_-_connect]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-12]] (2026-06-08)
+- [[meetings/2026-06-08-vrm___ai_calling_-_kt__session_1]] (2026-06-08)
+- [[meetings/2026-06-08-vrm_clm_-_anurag___vrajesh]] (2026-06-08)
+- [[meetings/2026-04-28-vrm_-_auth___security_considerations.]] (2026-04-28)
+- [[meetings/2026-04-24-bitscale_nda___saas_order_form]] (2026-04-24)
+- [[meetings/2026-04-01-imp__ownership_allignment___path_forward]] (2026-04-01)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/sagar-agarwal]]
+- [[people/tejas-gowda]]
+- [[people/vrajesh-iyengar]]

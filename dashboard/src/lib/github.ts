@@ -5,9 +5,9 @@ const FILE_PATH = 'dashboard-data/tasks.json'
 
 function getPAT(): string {
   try {
-    return localStorage.getItem('vrajesh_ai_pat') || ''
+    return localStorage.getItem('vrajesh_ai_pat') || import.meta.env.VITE_GITHUB_PAT || ''
   } catch {
-    return ''
+    return import.meta.env.VITE_GITHUB_PAT || ''
   }
 }
 
@@ -77,4 +77,38 @@ export async function saveTasks(tasks: Task[], sha: string): Promise<string> {
 
 export function isGitHubConfigured(): boolean {
   return !!getPAT()
+}
+
+export async function saveFile(path: string, content: string): Promise<void> {
+  const pat = getPAT()
+  if (!pat) throw new Error('No GitHub PAT configured')
+
+  let sha = ''
+  try {
+    const existing = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+      headers: { Authorization: `token ${pat}`, Accept: 'application/vnd.github.v3+json' },
+    })
+    if (existing.ok) {
+      const data = await existing.json()
+      sha = data.sha
+    }
+  } catch {}
+
+  const body: Record<string, string> = {
+    message: `[command-center] ${path.split('/').pop()} — ${new Date().toISOString()}`,
+    content: btoa(unescape(encodeURIComponent(content))),
+  }
+  if (sha) body.sha = sha
+
+  const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `token ${pat}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  })
+
+  if (!res.ok) throw new Error(`GitHub API error: ${res.status}`)
 }

@@ -8,6 +8,7 @@ tags:
   - decision
   - pivot
   - vrm
+created: 2026-06-17
 ---
 
 # VRM Project Scrapped by Leadership
@@ -27,3 +28,13 @@ VRM was an AI-powered merchant account manager aimed at improving M3-M12 retenti
 - Onboarding Infra OKRs (Compliance, API Decomp, Funnel Improvement, Merchant Experience) are the active priorities
 
 [Source: User, direct statement, 2026-06-17]
+
+---
+
+## Timeline
+- **2026-06-17** | Page created in brain
+
+## Linked Entities
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]
+- [[projects/vrm]]

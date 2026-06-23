@@ -1,0 +1,11 @@
+{
+  "id": "act-1782210754661-thread-add2b0a0",
+  "created_at": "2026-06-23T10:32:34.661Z",
+  "thread_id": "thread-add2b0a0",
+  "action": "respond",
+  "payload": {
+    "message": "this meeting invite needs to be declined and removed from my calendar for all occurrences ahead. Add a note while declining saying declining since pod is disbanded."
+  },
+  "status": "pending",
+  "executed_at": null
+}

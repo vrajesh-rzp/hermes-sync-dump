@@ -261,3 +261,11 @@ Transcription ended after 08:00:00
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/prashant-chaudhary]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

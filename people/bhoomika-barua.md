@@ -2,6 +2,7 @@
 title: Bhoomika Barua
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Senior Product Support Engineer
@@ -17,5 +18,14 @@ tags: [person, razorpay, ob-infra]
 ---
 
 ## Timeline
-
+- **2026-04-24** | Participated in Bitscale NDA & SAAS Order Form
 - 2026-06 | Active PR reviewer in OB Infra channel.
+---
+
+## Meetings
+- [[meetings/2026-04-24-bitscale_nda___saas_order_form]] (2026-04-24)
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

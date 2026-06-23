@@ -62,3 +62,16 @@ Skip-level manager (Sagar's manager). Vrajesh interacts with him due to proximit
 - **2026-05-18** | Declined VRM architecture breakout session (OOO) [Source: Gmail, 2026-05-20]
 - **2026-06-17** | Referenced in [Onboarding Infrastructure (R1-Acqui)](../projects/onboarding-infrastructure.md)
 - **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
+
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/khilan-haria]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]
+- [[projects/vrm]]

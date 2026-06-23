@@ -2,6 +2,7 @@
 title: VRM Agentic Dashboard
 type: code
 tags: [code, vrm, backend]
+created: 2026-05-20
 ---
 
 ## What it is
@@ -34,3 +35,8 @@ The agentic dashboard backend for VRM (Virtual Relationship Manager). It surface
 ## Related
 
 - [[projects/vrm]]
+
+---
+
+## Timeline
+- **2026-05-20** | Page created in brain

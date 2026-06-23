@@ -52,3 +52,16 @@ Top of the relevant engineering chain above Vrajesh. Ashish Tewari reports to Pr
 ## Timeline
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **Ongoing (May 2026)** | Active in monthly R1 experience group review and weekly R1 ticket review [Source: Gmail, 2026-05-20]
+
+---
+
+## Linked Entities
+- [[people/anushri-singhai]]
+- [[people/ashish-tewari]]
+- [[people/nikhil-khadilkar]]
+- [[people/prashant-chaudhary]]
+- [[people/sagar-agarwal]]
+- [[people/tejas-gowda]]
+- [[people/tushar-saxena]]
+- [[people/vinay-chopra]]
+- [[people/vrajesh-iyengar]]

@@ -129,3 +129,15 @@ Did the screenshots in this section make your notes better or worse?
 
 You should review Gemini's notes to make sure they're accurate. Get tips and learn how Gemini takes notes
 How is the quality of these specific notes? Take a short survey to let us know your feedback, including how helpful the notes were for your needs.
+
+---
+
+## Series
+- Previous: [[meetings/2026-04-23-vrm_weekly_sync]]
+- Next: [[meetings/2026-04-28-vrm_weekly_sync]]
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

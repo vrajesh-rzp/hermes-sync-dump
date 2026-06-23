@@ -52,7 +52,27 @@ Core VRM team member but in a parallel lane. Works under Harshil's direct taskin
 ---
 
 ## Timeline
+- **2026-06-08** | Participated in VRM / AI Calling - KT (Session 1)
+- **2026-06-08** | Participated in VRM CLM - Anurag / Vrajesh
+- **2026-05-26** | Participated in VRM Weekly Sync
+- **2026-05-26** | Participated in VRM x Agentic Dashboard - Architecture & Use-Case Breakout
+- **2026-05-25** | Participated in VRM Memory Layer - Anurag / Vrajesh
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **2026-05-14** | Vrajesh explicitly called out Anurag's memory layer work in VRM sync [Source: Gmail, 2026-05-20]
 - **2026-04-30** | Declined VRM sync (one-off) [Source: Gmail, 2026-05-20]
-- **2026-05 (ongoing)** | Regular VRM sync participant, 2x/week Tue & Thu [Source: Gmail, 2026-05-20]
+---
+
+## Meetings
+- [[meetings/2026-06-08-vrm___ai_calling_-_kt__session_1]] (2026-06-08)
+- [[meetings/2026-06-08-vrm_clm_-_anurag___vrajesh]] (2026-06-08)
+- [[meetings/2026-05-26-vrm_weekly_sync]] (2026-05-26)
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-05-25-vrm_memory_layer_-_anurag___vrajesh]] (2026-05-25)
+- [[meetings/2026-05-19-vrm_weekly_sync-1]] (2026-05-19)
+- [[meetings/2026-05-19-vrm_weekly_sync]] (2026-05-19)
+- [[meetings/2026-05-14-vrm_weekly_sync]] (2026-05-14)
+
+## Linked Entities
+- [[people/harshil-mathur]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

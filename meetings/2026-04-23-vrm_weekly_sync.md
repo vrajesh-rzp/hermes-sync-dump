@@ -553,3 +553,14 @@ Transcription ended after 00:31:50
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Series
+- Next: [[meetings/2026-04-28-vrm_weekly_sync-1]]
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

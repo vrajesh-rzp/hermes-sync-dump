@@ -45,4 +45,10 @@ None active.
 ---
 
 ## Timeline
+- **2026-06-16** | Participated in New Merchant Credits Offer Testing
+- **2026-03-16** | Participated in Growth POD weekly check-in
 - **2026-05-20** | Brain page restructured to enriched format [Source: Brain restructure, 2026-05-20]
+---
+
+## Linked Entities
+- [[people/vrajesh-iyengar]]

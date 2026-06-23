@@ -2,6 +2,7 @@
 title: Kailash Atal
 type: person
 tags: [person, razorpay, engineering-manager]
+created: 2026-05-20
 ---
 
 **Role:** Engineering Manager
@@ -26,3 +27,14 @@ tags: [person, razorpay, engineering-manager]
 - **2026-06-17** | Referenced in [Conversational Onboarding](../projects/conversational-onboarding.md)
 - **2026-06-17** | Referenced in [Vrajesh's Brain](../README.md)
 - **2026-06-17** | Referenced in [Vrajesh Jaidev Iyengar](../people/vrajesh-iyengar.md)
+
+---
+
+## Meetings
+- [[meetings/2026-06-08-kailash___vrajesh_meeting]] (2026-06-08)
+
+## Linked Entities
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/conversational-onboarding]]
+- [[projects/onboarding-infrastructure]]

@@ -2,6 +2,7 @@
 title: Kuriseti Perumalla Sathwik
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Senior Software Development Engineer
@@ -19,3 +20,10 @@ tags: [person, razorpay, ob-infra]
 ## Timeline
 
 - 2026-06 | Active deployments and PR reviews in OB Infra channel. Involved in on-call (obinfra_oncall) and experiment tracking.
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

@@ -48,3 +48,12 @@ Part of the VRM x Agentic Dashboard stakeholder group. Also in the R1 operationa
 ## Timeline
 - **2026-05-20** | Identified as participant in Anushri's weekly R1 ticket review (TS/PSE), monthly R1 experience group review, and invitee for VRM x Agentic Dashboard architecture breakout (May 22). [Source: Gmail signals, May 2026]
 - **2026-05-20** | Brain page created and enriched from signals [Source: Gmail signals, May 2026]
+
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+
+## Linked Entities
+- [[people/anushri-singhai]]
+- [[projects/vrm]]

@@ -52,3 +52,19 @@ VP-level engineering leadership relevant to Vrajesh's work. Tushar Saxena report
 ## Timeline
 - **2026-05-20** | Brain page enriched from Gmail signals [Source: Gmail, 2026-05-20]
 - **Ongoing (May 2026)** | Active in monthly R1 experience group review and weekly R1 ticket review [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/anushri-singhai]]
+- [[people/nikhil-khadilkar]]
+- [[people/prabu-ram]]
+- [[people/prashant-chaudhary]]
+- [[people/sagar-agarwal]]
+- [[people/tejas-gowda]]
+- [[people/tushar-saxena]]
+- [[people/vinay-chopra]]
+- [[people/vrajesh-iyengar]]

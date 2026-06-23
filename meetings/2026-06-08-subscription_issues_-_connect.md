@@ -407,3 +407,11 @@ Transcription ended after 00:35:39
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/sagar-agarwal]]
+- [[people/satyam-mishra]]
+- [[people/tushar-saxena]]
+- [[people/vrajesh-iyengar]]

@@ -55,3 +55,17 @@ Director-level engineering partner above Nikhil Khadilkar (Vrajesh's main EM cou
 - **2026-05-06** | Rescheduled Growth group internal review 3x in one day due to production incident; review eventually held [Source: Gmail, 2026-05-20]
 - **2026-05-05** | Production incident overnight — Nikhil's team engaged [Source: Gmail, 2026-05-20]
 - **2026-04-30** | Ran Splitz A/B experimentation framework knowledge-sharing session for Nikhil, Ankit Choudhary, Kousik Mitra [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-06-08-sprint_planning_-_growth]] (2026-06-08)
+- [[meetings/2026-06-08-subscription_issues_-_connect]] (2026-06-08)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/anushri-singhai]]
+- [[people/ashish-tewari]]
+- [[people/nikhil-khadilkar]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

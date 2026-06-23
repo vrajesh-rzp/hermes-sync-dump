@@ -44,5 +44,18 @@ Part of the VRM x Agentic Dashboard stakeholder group convened by Apuarv Sethi. 
 ---
 
 ## Timeline
+- **2026-05-26** | Participated in VRM x Agentic Dashboard - Architecture & Use-Case Breakout
+- **2026-04-28** | Participated in VRM - Auth & Security Considerations.
+- **2026-04-23** | Participated in VRM - Sagar / Vrajesh
 - **2026-05-20** | Identified as participant in monthly R1 experience group review and invitee for VRM x Agentic Dashboard architecture breakout (May 22). [Source: Gmail signals, May 2026]
 - **2026-05-20** | Brain page created and enriched from signals [Source: Gmail signals, May 2026]
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-04-28-vrm_-_auth___security_considerations.]] (2026-04-28)
+- [[meetings/2026-04-23-vrm_-_sagar___vrajesh]] (2026-04-23)
+
+## Linked Entities
+- [[people/apuarv-sethi]]
+- [[projects/vrm]]

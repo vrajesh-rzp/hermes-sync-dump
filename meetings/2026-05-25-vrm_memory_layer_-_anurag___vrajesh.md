@@ -98,3 +98,10 @@ Transcription ended after 00:09:40
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

@@ -49,3 +49,18 @@ Peripheral/advisory participant in the VRM stream. Part of the VRM x Agentic Das
 - **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
 - **2026-06-17** | Referenced in [VRM Agentic Dashboard](../code/vrm-agentic-dashboard.md)
 - **2026-06-17** | Referenced in [Migrate VRM to RSPL AWS Cluster](../decisions/aws-cluster-migration.md)
+
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_weekly_sync]] (2026-05-26)
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-05-19-vrm_weekly_sync-1]] (2026-05-19)
+- [[meetings/2026-05-19-vrm_weekly_sync]] (2026-05-19)
+- [[meetings/2026-05-14-vrm_weekly_sync]] (2026-05-14)
+- [[meetings/2026-05-13-vrm____rspl_cluster_migration____edge_review]] (2026-05-13)
+- [[meetings/2026-05-12-imp__vrm____devops]] (2026-05-12)
+- [[meetings/2026-05-12-vrm_weekly_sync]] (2026-05-12)
+
+## Linked Entities
+- [[projects/vrm]]

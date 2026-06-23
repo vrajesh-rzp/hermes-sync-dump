@@ -262,3 +262,11 @@ Transcription ended after 01:15:18
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/nikhil-khadilkar]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

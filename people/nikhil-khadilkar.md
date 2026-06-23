@@ -58,3 +58,20 @@ Primary engineering partner for Vrajesh in the Growth pod. Attends the same week
 - **2026-05-05** | Production incident overnight — Nikhil's team on-call and managing resolution [Source: Gmail, 2026-05-20]
 - **2026-05-XX** | Bitscale NDA finalized by Bitscale; waiting on legal (Shivani) for vendor agreement template [Source: Gmail, 2026-05-20]
 - **2026-04-30** | Attended Splitz A/B framework knowledge-sharing session run by Tushar Saxena [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-06-16-new_merchant_credits_offer_testing]] (2026-06-16)
+- [[meetings/2026-06-08-ankit___vrajesh_meeting]] (2026-06-08)
+- [[meetings/2026-06-08-gamification_kt_session_1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion]] (2026-06-08)
+- [[meetings/2026-06-08-shubham_x_nikhil_x_vrajesh]] (2026-06-08)
+- [[meetings/2026-06-08-sprint_planning_-_growth]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-1]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-10]] (2026-06-08)
+
+## Linked Entities
+- [[people/sagar-agarwal]]
+- [[people/tushar-saxena]]
+- [[people/vrajesh-iyengar]]

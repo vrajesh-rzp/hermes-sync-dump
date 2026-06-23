@@ -49,3 +49,14 @@ None active.
 ## Timeline
 - **2026-05-20** | Brain page restructured to enriched format [Source: Brain restructure, 2026-05-20]
 - **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
+
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/khilan-haria]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

@@ -68,3 +68,15 @@ Three levels above Vrajesh (Vrajesh → Sagar → Tejas → Khilan). Unusually d
 - **2026-05-18** | Originally accepted VRM architecture session; status of actual attendance unclear [Source: Gmail, 2026-05-20]
 - **Late May 2026** | External OpenAI engagement travel [Source: Gmail, 2026-05-20]
 - **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
+
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/sagar-agarwal]]
+- [[people/tejas-gowda]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

@@ -2,6 +2,7 @@
 title: Swati Pandey
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Senior Software Development Engineer
@@ -19,3 +20,10 @@ tags: [person, razorpay, ob-infra]
 ## Timeline
 
 - 2026-06 | Active in OB Infra Slack channel. Requesting PR reviews for pg-onboarding-service and API repos.
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

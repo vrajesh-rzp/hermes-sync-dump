@@ -556,3 +556,11 @@ Transcription ended after 00:30:14
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/anurag-rastogi]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

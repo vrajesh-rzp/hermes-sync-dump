@@ -2,6 +2,7 @@
 title: Miran Hamid
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Consultant, Product Development Engineer I
@@ -19,3 +20,10 @@ tags: [person, razorpay, ob-infra]
 ## Timeline
 
 - 2026-06 | Active in OB Infra channel. Requesting PR reviews for onboarding services.
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

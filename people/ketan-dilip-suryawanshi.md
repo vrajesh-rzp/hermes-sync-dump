@@ -2,6 +2,7 @@
 title: Ketan Dilip Suryawanshi
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Senior Software Development Engineer
@@ -21,3 +22,10 @@ tags: [person, razorpay, ob-infra]
 
 - 2026-06 | Open PR #160 on razorpay/mco: feat: add Rize Inc onboarding journey.
 - 2026-06 | Upcoming leave: 18 June - 1 July.
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

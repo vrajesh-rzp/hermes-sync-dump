@@ -59,3 +59,18 @@ Indirect connection to Vrajesh via shared Growth org and Sagar-led forums. Not d
 - **2026-05 (recent)** | Plotline annual review completed — 40x value demonstrated [Source: Gmail, 2026-05-20]
 - **2026-03-18** | Plotline Invoice 100002359-10 (₹10,03,683) due — now 62+ days overdue; overage charges disputed [Source: Gmail, 2026-05-20]
 - **2026-05 (ongoing)** | DRI for Gamification data/analytics; participant in Sagar's Subscription + Gamification weekly [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-06-08-gamification_kt_session_1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion-1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion]] (2026-06-08)
+- [[meetings/2026-04-01-imp__ownership_allignment___path_forward]] (2026-04-01)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[concepts/merchant-lifecycle]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/vrm]]

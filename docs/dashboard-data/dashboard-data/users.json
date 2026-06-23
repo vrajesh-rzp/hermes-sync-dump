@@ -1,0 +1,7 @@
+{
+  "admin": "vrajesh.j@razorpay.com",
+  "whitelist": [
+    {"email": "vrajesh.j@razorpay.com", "role": "admin", "addedAt": "2026-06-17"},
+    {"email": "sagar.agarwal@razorpay.com", "role": "viewer", "addedAt": "2026-06-17"}
+  ]
+}

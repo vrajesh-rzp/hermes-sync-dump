@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-06-23T11:30:52.479502+00:00",
+  "threads": [
+    {
+      "id": "thread-add2b0a0",
+      "title": "DEPA meeting - VRM + AI Projects",
+      "status": "active",
+      "action_needed": "review",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-3eaad914",
+      "title": "Growth team - weekly DEPA call",
+      "status": "active",
+      "action_needed": "review",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-a8a13d22",
+      "title": "OKR Review - 1st checkpoint with Leads",
+      "status": "active",
+      "action_needed": "review",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-d6cb5783",
+      "title": "Onboarding Q2 OKR",
+      "status": "active",
+      "action_needed": "review",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-3c78ecae",
+      "title": "Demerger arch design review",
+      "status": "active",
+      "action_needed": "review",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-1162e882",
+      "title": "Sprint Planning - Growth",
+      "status": "active",
+      "action_needed": "review",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-482510f9",
+      "title": "Shared: Tech Spec - Enhanced Fuzzy Matching Pre-processing",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "drive",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "# Shared: FY27 - Product-org Planning Index\n\n**New shared document:** FY27 - Product-org Planning Index\n**Type:** application/vnd.google-apps.spreadsheet",
+      "update_count": 9,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-4ff243ef",
+      "title": "Growth Standup",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 2,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-a6118c27",
+      "title": "Drive: Onboarding Experience Strategy updated",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "drive",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-1f8e41a4",
+      "title": "Drive: SME Payments OKRs updated",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "drive",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-0da5fd58",
+      "title": "Onboarding Reliability - Standup",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 4,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-e3b0c442",
+      "title": "2026-06-22: Completed full ATS optimization pass on all 25 CVs (1 skipped, 2 ski",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "unknown",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 2,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-4700995f",
+      "title": "Post Product Conclave Workshop & Hands-on",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 2,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-1b5c132b",
+      "title": "Drive: Q1 Retro + Q2 Planning updated",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "drive",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-4d73cc70",
+      "title": "Drive: FY27 SME Payments Group Strategy updated",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "drive",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "this-week",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-075ebc63",
+      "title": "Product AI working days - demo",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    },
+    {
+      "id": "thread-730d6d6d",
+      "title": "\ud83c\udf7d\ufe0f Elan & Mani - Promotion Party Dinner",
+      "status": "watching",
+      "action_needed": "none",
+      "source": "calendar",
+      "channel": "",
+      "deadline": null,
+      "response_eta": "no-rush",
+      "last_update": "2026-06-23",
+      "created": "2026-06-23",
+      "summary": "",
+      "update_count": 1,
+      "participants": [
+        []
+      ],
+      "related_threads": [
+        []
+      ],
+      "project": null,
+      "devrev_ref": null
+    }
+  ],
+  "counts": {
+    "active": 6,
+    "watching": 11,
+    "closed_today": 0
+  }
+}

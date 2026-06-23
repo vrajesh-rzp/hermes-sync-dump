@@ -625,3 +625,22 @@ Transcription ended after 00:31:24
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/apuarv-sethi]]
+- [[people/ashish-tewari]]
+- [[people/dushyant-panda]]
+- [[people/khilan-haria]]
+- [[people/nikhil-khadilkar]]
+- [[people/nikunj-kaushik]]
+- [[people/raktim-talukdar]]
+- [[people/ramya-subramaniam]]
+- [[people/sagar-agarwal]]
+- [[people/satyam-mishra]]
+- [[people/shubham-singhal]]
+- [[people/tejas-gowda]]
+- [[people/tushar-saxena]]
+- [[people/varghese-mathew]]
+- [[people/vrajesh-iyengar]]

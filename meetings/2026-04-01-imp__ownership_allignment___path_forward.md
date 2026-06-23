@@ -297,3 +297,12 @@ Transcription ended after 01:41:57
 
 
 This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+
+---
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/raktim-talukdar]]
+- [[people/ramya-subramaniam]]
+- [[people/sagar-agarwal]]
+- [[people/vrajesh-iyengar]]

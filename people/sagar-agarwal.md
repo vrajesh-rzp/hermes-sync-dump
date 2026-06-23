@@ -74,3 +74,27 @@ Vrajesh's direct manager. Has explicitly given Vrajesh space to focus on VRM. Be
 - **2026-06-17** | Referenced in [VRM — Virtual Relationship Manager](../projects/vrm.md)
 - **2026-06-17** | Referenced in [Vrajesh's Brain](../README.md)
 - **2026-06-17** | Referenced in [Vrajesh Jaidev Iyengar](../people/vrajesh-iyengar.md)
+
+---
+
+## Meetings
+- [[meetings/2026-06-08-gamification_kt_session_1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion-1]] (2026-06-08)
+- [[meetings/2026-06-08-growth_ideas_discussion]] (2026-06-08)
+- [[meetings/2026-06-08-ssa_syncup_block]] (2026-06-08)
+- [[meetings/2026-06-08-subscription_issues_-_connect]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-1]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-10]] (2026-06-08)
+- [[meetings/2026-06-08-subscriptions_daily_sync-11]] (2026-06-08)
+
+## Linked Entities
+- [[people/khilan-haria]]
+- [[people/nikhil-khadilkar]]
+- [[people/nikunj-kaushik]]
+- [[people/ramya-subramaniam]]
+- [[people/tejas-gowda]]
+- [[people/tushar-saxena]]
+- [[people/varghese-mathew]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]
+- [[projects/vrm]]

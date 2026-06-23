@@ -47,3 +47,20 @@ Primary organizer of the VRM x Agentic Dashboard breakout. Stakeholder group inc
 ## Timeline
 - **2026-05-20** | Identified as primary organizer/calendar host for VRM x Agentic Dashboard architecture breakout (May 22). [Source: Gmail signals, May 2026]
 - **2026-05-20** | Brain page created and enriched from signals [Source: Gmail signals, May 2026]
+
+---
+
+## Meetings
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-03-16-growth_pod_weekly_check-in]] (2026-03-16)
+
+## Linked Entities
+- [[people/apoorv-chaturvedi]]
+- [[people/dushyant-panda]]
+- [[people/khilan-haria]]
+- [[people/prashant-chaudhary]]
+- [[people/raktim-talukdar]]
+- [[people/rishav-loomba]]
+- [[people/sagar-agarwal]]
+- [[people/vinay-chopra]]
+- [[projects/vrm]]

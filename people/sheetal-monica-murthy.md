@@ -56,3 +56,12 @@ Called Vrajesh into the Bundle Pricing escalation sync on May 11 — suggesting 
 - **2026-05-01/02** | Bundle pricing cancellation lag: merchant cancelled May 1, system reflected May 2, incorrect payment debit triggered [Source: Gmail, 2026-05-20]
 - **2026-05 (ongoing)** | Escalating Rs. 23,599 merchant refund to Nikhil Khadilkar (multiple escalations) [Source: Gmail, 2026-05-20]
 - **2026-04** | Product fix for bundle pricing cancellation shipped April 2026 (per Sheetal's framing) [Source: Gmail, 2026-05-20]
+
+---
+
+## Meetings
+- [[meetings/2026-06-08-ankit___vrajesh_meeting]] (2026-06-08)
+
+## Linked Entities
+- [[people/nikhil-khadilkar]]
+- [[people/vrajesh-iyengar]]

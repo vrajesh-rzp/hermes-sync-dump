@@ -2,6 +2,7 @@
 title: VRM — Virtual Relationship Manager
 type: project
 tags: [project, vrm, ai, retention]
+created: 2026-05-20
 ---
 
 > VRM is an AI-powered account manager that proactively engages merchants at the right moment to drive activation, retention, and growth — replacing manual relationship management at scale.
@@ -58,5 +59,30 @@ The primary signal VRM optimises for is whether merchants who have been active f
 ---
 
 ## Timeline
+- **2026-06-08** | Discussed in Shubham x nikhil x vrajesh
+- **2026-06-08** | Discussed in Sprint Planning - Growth
+- **2026-06-08** | Discussed in VRM / AI Calling - KT (Session 1)
+- **2026-06-08** | Discussed in VRM CLM - Anurag / Vrajesh
+- **2026-05-26** | Discussed in VRM Weekly Sync
+---
 
-*(to be populated)*
+## Related Meetings
+- [[meetings/2026-06-08-shubham_x_nikhil_x_vrajesh]] (2026-06-08)
+- [[meetings/2026-06-08-sprint_planning_-_growth]] (2026-06-08)
+- [[meetings/2026-06-08-vrm___ai_calling_-_kt__session_1]] (2026-06-08)
+- [[meetings/2026-06-08-vrm_clm_-_anurag___vrajesh]] (2026-06-08)
+- [[meetings/2026-05-26-vrm_weekly_sync]] (2026-05-26)
+- [[meetings/2026-05-26-vrm_x_agentic_dashboard_-_architecture___use-case_breakout]] (2026-05-26)
+- [[meetings/2026-05-25-vrm_memory_layer_-_anurag___vrajesh]] (2026-05-25)
+- [[meetings/2026-05-19-vrm_weekly_sync-1]] (2026-05-19)
+- [[meetings/2026-05-19-vrm_weekly_sync]] (2026-05-19)
+- [[meetings/2026-05-14-vrm_weekly_sync]] (2026-05-14)
+
+## Linked Entities
+- [[decisions/aws-cluster-migration]]
+- [[people/harshil-mathur]]
+- [[people/khilan-haria]]
+- [[people/rishav-loomba]]
+- [[people/sagar-agarwal]]
+- [[people/tejas-gowda]]
+- [[people/vrajesh-iyengar]]

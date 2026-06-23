@@ -2,6 +2,7 @@
 title: Neeraj Sati
 type: person
 tags: [person, razorpay, ob-infra]
+created: 2026-05-20
 ---
 
 **Role:** Senior Frontend Engineer
@@ -19,3 +20,10 @@ tags: [person, razorpay, ob-infra]
 ## Timeline
 
 - 2026-06 | Active in OB Infra channel. Nocode oncall rotation.
+
+---
+
+## Linked Entities
+- [[people/kailash-atal]]
+- [[people/vrajesh-iyengar]]
+- [[projects/onboarding-infrastructure]]

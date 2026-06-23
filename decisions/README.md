@@ -40,3 +40,11 @@ owner: [[people/owner-name]]
 - Add a `## Decision` section stating *what* was decided.
 - Add a `## Consequences` section noting trade-offs and follow-on actions.
 - If a decision is superseded, add a `superseded-by: [[decisions/new-slug]]` field to its frontmatter.
+
+---
+
+## Timeline
+- **2026-05-20** | Page created in brain
+
+## Linked Entities
+- [[projects/vrm]]
